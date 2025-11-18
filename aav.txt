@@ -1,0 +1,38 @@
+[3] Déterminer des probabilités dans les jeux de stratégie.
+[3] Appliquer les lois de distribution discrètes à l'analyse de risque dans des jeux.
+[4] Analyser l'équilibre de Nash dans des jeux coopératifs.
+[3] Etablir un modèle de jeux séquentiels avec information incomplète.
+[3] Déterminer les stratégies optimales dans des jeux à somme nulle.
+prosit 2
+[2] Expliquer les concepts de base de statistiques descriptives (moyenne, médiane, écart-type, quantiles, boîte à moustache, étendue, corrélation linéaire, loi normale).
+[3] Appliquer la méthode des moindres carrés à une série de données.
+[4] Analyser les résultats des statistiques descriptives pour comprendre les caractéristiques de l’ensemble de données.
+[3] Utiliser dans python des données tabulaires
+[3] Calculer les grandeurs statistiques via python.
+[3] Représenter les données et les grandeurs statistiques sous différentes formes via python (droite, histogramme)
+Prosit 3
+[1] Rappeler le fonctionnement d'un OS, ainsi que les outils d'analyse.
+[1] Décrire les mécanismes de gestion de la mémoire et des processus par le Système d'Exploitation
+[4] Analyser et évaluer les méthodes de détection des anomalies dans les données de séries temporelles basées sur des seuils comme le z-score, l'IQR, le pourcentage du maximum et les statistiques robustes.
+[3] Déterminer les ressources adéquates, expérimenter et collecter les données
+prosit 4
+[1] Décrire l'ordre de grandeur de la complexité d'un algorithme en utilisant la notation big O.
+[3] Déterminer la complexité temporelle/spatiale d'un algorithme à partir d'une fonction mathématique, de mesures ou d'un tracé.
+[4] Comparer des résultats théoriques issus d'une modélisation mathématique et empirique/expérimentale
+[1] Décrire le concept et les principes du Green IT
+[2] Expliquer le principe de fonctionnement des tables de hachage et leur implémentation sur python.
+[1] Identifier les stratégies et les meilleures pratiques de Green IT.
+Prosit 5
+[2] Expliquer les concepts et théorèmes mathématiques appliqués à la cryptographie (Euler,  Algorithme d'Euclide …)
+[2] Expliquer les propriétés des nombres premiers spéciaux (les nombres premiers de Mersenne, les nombres premiers de Fermat, les nombres premiers de Sophie Germain).
+[3] Résoudre des problèmes mathématiques liés à la cryptographie (cryptage et décryptage, factorisation de grands nombres ... ).
+Prosit 6
+[1] Mémoriser l'ensemble des notions de base de la théorie des graphes (terminologies, différents types de graphes, théorèmes).
+[3] Simuler différents algorithmes de parcours de graphe en python.
+[3] Expérimenter différentes représentations d'un graphe en python.
+seance AA
+[3] Etablir le modèle mathématique d'un problème informatique réel
+[3] Résoudre un problème mathématique à l'aide d'un programme python
+[3] Appliquer une démarche éthique
+[5] Evaluer ses compétences
+[5] Mesurer sa progression

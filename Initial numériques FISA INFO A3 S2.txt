@@ -1,0 +1,163 @@
+Initial numériques FISA INFO A3 S2 - I
+Échelle d'évaluation standard : A (% de réussite supérieur à 75%)
+ Question 1
+Question à réponse unique
+Lequel des choix suivants est un objectif Green IT qui peut être modélisé comme un problème d'optimisation sur graphes ?
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Réduire la fréquence des backups.
+B ■ ■ Non Minimiser l’utilisation des écrans.
+C ☑ ☑ Non Réduire la température des serveurs via la répartition des tâches.
+D ■ ■ Non Améliorer l’ergonomie d’un site web.
+ Question 2
+Question à réponse unique
+Dans une optique Green IT, il faut limiter le temps de calcul pour réduire la consommation énergétique. Lequel des problèmes
+suivants est un problème NP-complet, souvent approché par des heuristiques pour éviter des calculs trop longs et énergivores ?
+Réponses incorrectes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Tri d’un tableau par insertion.
+B ■ ■ Non Recherche d’un élément dans un tableau non trié.
+C ■ ☑ Oui (+1) Coloration minimale d’un graphe parfait.
+D ■ ■ Non Fusion de deux listes triées.
+E ■ ■ Non Tous les problèmes dessus.
+F ☑ ■ Oui (+1) Aucun de ces problèmes dessus.
+ Question 3
+Quels sont les principaux facteurs qui influencent l’empreinte carbone d’un algorithme ?
+Question à réponses
+multiples
+Réponses correctes 0 discordance
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Le nombre de lignes de code de l’algorithme
+B ☑ ☑ Non L’énergie nécessaire à son exécution.
+C ■ ■ Non Le temps d’exécution uniquement.
+D ☑ ☑ Non Les polluants émis lors de la production de l’énergie consommée
+E ■ ■ Non
+1/4
+Annulée -  Question 4
+Question à réponses
+multiples
+Quelles seraient les bonnes stratégies pour réduire l’empreinte carbone d’un algorithme sans en modifier le code ?
+Réponses partiellement correctes 1 discordance
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Utiliser un compilateur plus récent.
+B ■ ■ Non L’exécuter sur une machine plus puissante.
+C ☑ ☑ Non L’exécuter sur une infrastructure alimentée par de l’énergie verte.
+D ☑ ■ Oui (+1) L’implémenter dans un autre langage.
+ Question 5
+Question à réponse unique
+On considère un graphe non orienté représenté par un objet graph. On souhaite colorier les sommets à l’aide d’une approche
+gloutonne en suivant un ordre donné. Voici le code de base :
+graph un graphe non orienté,
+order une liste de sommets définissant l’ordre dans lequel les sommets sont coloriés.
+graph.neighbors(node) : renvoie les sommets adjacents (voisins) du sommet node dans le graphe.
+On cherche à compléter la fonction first
+_
+available appelée dans ce code pour qu'elle retourne la plus petite couleur qui n’est pas
+utilisée par les sommets voisins. Quel code parmi les suivants correspond à une implémentation correcte de first
+available
+_
+utilisée à la ligne 5 ?
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non def first
+available(colors):
+_
+return max(colors) + 1
+B ☑ ☑ Non def first
+available(colors):
+_
+i = 1
+while i in colors:
+i += 1
+return i
+C ■ ■ Non def first
+available(colors):
+_
+return min(set(range(1, len(colors))) - set(colors))
+D ■ ■ Non def first
+available(colors):
+_
+return sorted(colors)[0]
+2/4
+ Question 6
+Question à réponse unique
+Après exécution de cette fonction greedy-coloring ci-dessus, on souhaite connaître le nombre de couleurs différentes utilisées
+pour colorier le graphe.
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non len(coloring.values())
+B ■ ■ Non len(coloring)
+C ■ ■ Non sum(coloring.values())
+D ☑ ☑ Non len(set(coloring.values()))
+E ■ ■ Non max(coloring.values())
+ Question 7
+Question à réponse unique
+Quelle est la matrice d'adjacence du graphe non orienté suivant ?
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non A = [
+[0, 1, 1, 0, 0],
+[1, 0, 0, 1, 0],
+[1, 0, 0, 1, 1],
+[0, 1, 1, 0, 1],
+[0, 0, 1, 1, 0]
+]
+B ☑ ☑ Non B = [
+[0, 1, 1, 0, 0],
+[1, 0, 1, 1, 0],
+[1, 1, 0, 1, 1],
+[0, 1, 1, 0, 1],
+[0, 0, 1, 1, 0]
+]
+C ■ ■ Non C = [
+[0, 1, 0, 0, 1],
+[1, 0, 1, 0, 1],
+[0, 1, 0, 1, 1],
+[0, 0, 1, 0, 1],
+[1, 1, 1, 1, 0]
+]
+D ■ ■ Non D = [
+[0, 1, 1, 1, 0],
+[1, 0, 1, 1, 0],
+[1, 1, 0, 1, 1],
+[1, 1, 1, 0, 1],
+[0, 0, 1, 1, 0]
+]
+3/4
+ Question 8
+Question à réponse unique
+Quelle structure de données est la plus adaptée pour représenter un graphe non orienté et peu dense lorsque l’on souhaite
+connaître rapidement les voisins d’un sommet ?
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Liste des arêtes triée par sommet
+B ■ ■ Non Matrice d’adjacence
+C ■ ■ Non Tableau des degrés
+D ☑ ☑ Non Liste d’adjacence
+ Question 9
+les tables de hachage permettent un accès en :
+Question à réponses
+multiples
+Réponses incorrecte pour cause de réponse éliminatoire 3 discordances
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■
+INACCEPTABLE
+☑ Oui (+1) en moyenne.
+B ☑ ■ Oui (+1) dans le pire cas.
+C ☑ ■ Oui (+1) en moyenne
+D ■
+INACCEPTABLE
+■ Non en moyenne
+E ■
+INACCEPTABLE
+■ Non dans le pire cas.
+4/4

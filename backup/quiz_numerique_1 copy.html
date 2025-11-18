@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Sciences du Numérique 1</title>
+    <link rel="stylesheet" href="quiz_style.css">
+</head>
+<body>
+
+    <h1>Quiz - Sciences du Numérique 1</h1>
+    <p>Ce quiz contient 30 questions. Cochez les réponses qui vous semblent correctes, puis cliquez sur le bouton "Corriger" en bas de la page pour voir vos résultats.</p>
+    
+    <form id="quizForm">
+        
+        <h2>Questions Faciles</h2>
+
+        <!-- Question 1 -->
+        <div class="question-block" id="q1">
+            <p class="question-title">1. Quel est le rôle principal d'un Système d'Exploitation (SE) ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q1" value="a"> Exécuter des applications web uniquement.</label></div>
+                <div><label><input type="radio" name="q1" value="b"> Gérer les ressources matérielles et logicielles de l'ordinateur.</label></div>
+                <div><label><input type="radio" name="q1" value="c"> Protéger l'ordinateur contre les virus.</label></div>
+                <div><label><input type="radio" name="q1" value="d"> Fournir une connexion à Internet.</label></div>
+            </div>
+        </div>
+        
+        <!-- Question 2 -->
+        <div class="question-block" id="q2">
+            <p class="question-title">2. Qu'est-ce que la "mémoire virtuelle" ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q2" value="a"> Une mémoire RAM très rapide.</label></div>
+                <div><label><input type="radio" name="q2" value="b"> Un service de stockage dans le cloud.</label></div>
+                <div><label><input type="radio" name="q2" value="c"> Un mécanisme qui permet de simuler une mémoire centrale plus grande que la RAM disponible, en utilisant le disque dur.</label></div>
+                <div><label><input type="radio" name="q2" value="d"> Une mémoire utilisée exclusivement par la carte graphique.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-block" id="q3">
+            <p class="question-title">3. En notation Big O, que signifie une complexité de O(1) ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q3" value="a"> Le temps d'exécution est constant et ne dépend pas de la taille des données d'entrée.</label></div>
+                <div><label><input type="radio" name="q3" value="b"> Le temps d'exécution est proportionnel à la taille des données d'entrée.</label></div>
+                <div><label><input type="radio" name="q3" value="c"> L'algorithme est très lent.</label></div>
+                <div><label><input type="radio" name="q3" value="d"> L'algorithme ne prend qu'une seule seconde pour s'exécuter.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question-block" id="q4">
+            <p class="question-title">4. Quels sont les principes du Green IT ? (Plusieurs réponses possibles)</p>
+            <div class="answers" data-type="checkbox" data-correct='["a", "c", "d"]'>
+                <div><label><input type="checkbox" name="q4" value="a"> Réduire la consommation énergétique des équipements informatiques.</label></div>
+                <div><label><input type="checkbox" name="q4" value="b"> Augmenter la fréquence de remplacement du matériel pour avoir les dernières technologies.</label></div>
+                <div><label><input type="checkbox" name="q4" value="c"> Allonger la durée de vie des équipements.</label></div>
+                <div><label><input type="checkbox" name="q4" value="d"> Optimiser les algorithmes pour qu'ils consomment moins de ressources.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question-block" id="q5">
+            <p class="question-title">5. Quel est le principal avantage d'une table de hachage ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q5" value="a"> Elle conserve les éléments dans un ordre trié.</label></div>
+                <div><label><input type="radio" name="q5" value="b"> Elle permet une recherche, insertion et suppression en temps moyen O(1).</label></div>
+                <div><label><input type="radio" name="q5" value="c"> Elle consomme très peu de mémoire.</label></div>
+                <div><label><input type="radio" name="q5" value="d"> Elle est idéale pour représenter des relations complexes comme un réseau social.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question-block" id="q6">
+            <p class="question-title">6. Dans la théorie des graphes, comment appelle-t-on les points ou les nœuds qui composent le graphe ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q6" value="a"> Les Arêtes</label></div>
+                <div><label><input type="radio" name="q6" value="b"> Les Liens</label></div>
+                <div><label><input type="radio" name="q6" value="c"> Les Sommets</label></div>
+                <div><label><input type="radio" name="q6" value="d"> Les Degrés</label></div>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question-block" id="q7">
+            <p class="question-title">7. Lequel des éléments suivants est une bonne pratique de "Green IT" ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q7" value="a"> Configurer la mise en veille prolongée des ordinateurs.</label></div>
+                <div><label><input type="radio" name="q7" value="b"> Laisser les écrans allumés en permanence pour éviter l'usure du bouton.</label></div>
+                <div><label><input type="radio" name="q7" value="c"> Imprimer tous les emails importants.</label></div>
+                <div><label><input type="radio" name="q7" value="d"> Acheter un nouvel ordinateur tous les ans.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question-block" id="q8">
+            <p class="question-title">8. Dans une table de hachage, que se passe-t-il lorsque deux clés différentes produisent le même indice ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q8" value="a"> Une erreur système.</label></div>
+                <div><label><input type="radio" name="q8" value="b"> Une surcharge.</label></div>
+                <div><label><input type="radio" name="q8" value="c"> Une exception.</label></div>
+                <div><label><input type="radio" name="q8" value="d"> Une collision.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question-block" id="q9">
+            <p class="question-title">9. Quel type de graphe est le plus adapté pour modéliser un réseau social comme Twitter où l'on peut "suivre" quelqu'un sans que ce soit réciproque ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q9" value="a"> Un graphe orienté.</label></div>
+                <div><label><input type="radio" name="q9" value="b"> Un graphe non orienté.</label></div>
+                <div><label><input type="radio" name="q9" value="c"> Un graphe complet.</label></div>
+                <div><label><input type="radio" name="q9" value="d"> Un graphe cyclique.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question-block" id="q10">
+            <p class="question-title">10. Quel est le but de l'algorithme d'Euclide ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q10" value="a"> Trouver des nombres premiers.</label></div>
+                <div><label><input type="radio" name="q10" value="b"> Calculer le plus grand commun diviseur (PGCD).</label></div>
+                <div><label><input type="radio" name="q10" value="c"> Chiffrer des messages.</label></div>
+                <div><label><input type="radio" name="q10" value="d"> Trier une liste de nombres.</label></div>
+            </div>
+        </div>
+        
+        <h2>Questions Moyennes</h2>
+
+        <!-- Question 11 -->
+        <div class="question-block" id="q11">
+            <p class="question-title">11. Quelle est la complexité temporelle de l'algorithme suivant ?</p>
+            <pre><code>for i in range(n):
+  for j in range(n):
+    print(i, j)</code></pre>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q11" value="a"> O(n)</label></div>
+                <div><label><input type="radio" name="q11" value="b"> O(log n)</label></div>
+                <div><label><input type="radio" name="q11" value="c"> O(n²)</label></div>
+                <div><label><input type="radio" name="q11" value="d"> O(n log n)</label></div>
+            </div>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="question-block" id="q12">
+            <p class="question-title">12. Un algorithme doit stocker une matrice de connexion entre N villes. Quelle est la complexité spatiale requise pour stocker cette matrice ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q12" value="a"> O(n)</label></div>
+                <div><label><input type="radio" name="q12" value="b"> O(log n)</label></div>
+                <div><label><input type="radio" name="q12" value="c"> O(n²)</label></div>
+                <div><label><input type="radio" name="q12" value="d"> O(1)</label></div>
+            </div>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question-block" id="q13">
+            <p class="question-title">13. Lequel de ces choix décrit le mieux un parcours en largeur (BFS) dans un graphe ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q13" value="a"> Explorer le plus loin possible le long de chaque branche avant de revenir en arrière.</label></div>
+                <div><label><input type="radio" name="q13" value="b"> Explorer tous les voisins d'un nœud avant de passer aux voisins de ses voisins.</label></div>
+                <div><label><input type="radio" name="q13" value="c"> Choisir le chemin le plus court à chaque étape.</label></div>
+                <div><label><input type="radio" name="q13" value="d"> Visiter les nœuds dans un ordre aléatoire.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question-block" id="q14">
+            <p class="question-title">14. Vous devez représenter un graphe très dense (beaucoup d'arêtes). Quelle structure de données est la plus efficace pour vérifier rapidement l'existence d'une arête ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q14" value="a"> Matrice d'adjacence</label></div>
+                <div><label><input type="radio" name="q14" value="b"> Liste d'adjacence</label></div>
+                <div><label><input type="radio" name="q14" value="c"> Liste d'arêtes</label></div>
+                <div><label><input type="radio" name="q14" value="d"> Table de hachage</label></div>
+            </div>
+        </div>
+
+        <!-- Question 15 -->
+        <div class="question-block" id="q15">
+            <p class="question-title">15. Quelle est la complexité temporelle dans le pire des cas pour une recherche dans une table de hachage (avec un mauvais mécanisme de résolution de collisions) ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q15" value="a"> O(1)</label></div>
+                <div><label><input type="radio" name="q15" value="b"> O(log n)</label></div>
+                <div><label><input type="radio" name="q15" value="c"> O(n²)</label></div>
+                <div><label><input type="radio" name="q15" value="d"> O(n)</label></div>
+            </div>
+        </div>
+
+        <!-- Question 16 -->
+        <div class="question-block" id="q16">
+            <p class="question-title">16. Vous analysez les temps de réponse d'un serveur. La moyenne est de 100ms et l'écart-type de 15ms. Une requête prend 145ms. Quel est le z-score de cette requête ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q16" value="a"> 2</label></div>
+                <div><label><input type="radio" name="q16" value="b"> 2.5</label></div>
+                <div><label><input type="radio" name="q16" value="c"> 3</label></div>
+                <div><label><input type="radio" name="q16" value="d"> 4.5</label></div>
+            </div>
+        </div>
+
+        <!-- Question 17 -->
+        <div class="question-block" id="q17">
+            <p class="question-title">17. Quel mécanisme de gestion de la mémoire permet au SE de diviser la mémoire physique en blocs de taille fixe ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q17" value="a"> La segmentation</label></div>
+                <div><label><input type="radio" name="q17" value="b"> La pagination</label></div>
+                <div><label><input type="radio" name="q17" value="c"> Le swapping</label></div>
+                <div><label><input type="radio" name="q17" value="d"> L'allocation contiguë</label></div>
+            </div>
+        </div>
+
+        <!-- Question 18 -->
+        <div class="question-block" id="q18">
+            <p class="question-title">18. En cryptographie asymétrique, avec quelle clé un message doit-il être chiffré pour garantir que seul le destinataire puisse le lire ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q18" value="a"> La clé privée de l'expéditeur</label></div>
+                <div><label><input type="radio" name="q18" value="b"> La clé publique du destinataire</label></div>
+                <div><label><input type="radio" name="q18" value="c"> La clé publique de l'expéditeur</label></div>
+                <div><label><input type="radio" name="q18" value="d"> La clé privée du destinataire</label></div>
+            </div>
+        </div>
+
+        <!-- Question 19 -->
+        <div class="question-block" id="q19">
+            <p class="question-title">19. Quel est l'un des principaux facteurs influençant l'empreinte carbone d'un algorithme ? (Plusieurs réponses possibles)</p>
+            <div class="answers" data-type="checkbox" data-correct='["b", "d"]'>
+                <div><label><input type="checkbox" name="q19" value="a"> Le nombre de lignes de code</label></div>
+                <div><label><input type="checkbox" name="q19" value="b"> L'énergie nécessaire à son exécution</label></div>
+                <div><label><input type="checkbox" name="q19" value="c"> Le langage de programmation utilisé (uniquement)</label></div>
+                <div><label><input type="checkbox" name="q19" value="d"> L'efficacité de l'infrastructure matérielle sous-jacente</label></div>
+            </div>
+        </div>
+
+        <!-- Question 20 -->
+        <div class="question-block" id="q20">
+            <p class="question-title">20. Simulez un parcours en profondeur (DFS) sur le graphe (A-B, A-C, B-D) en partant de A. Quel est un ordre de visite possible ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q20" value="a"> A, B, D, C</label></div>
+                <div><label><input type="radio" name="q20" value="b"> A, B, C, D</label></div>
+                <div><label><input type="radio" name="q20" value="c"> A, C, D, B</label></div>
+                <div><label><input type="radio" name="q20" value="d"> A, D, B, C</label></div>
+            </div>
+        </div>
+
+        <h2>Questions Difficiles</h2>
+
+        <!-- Question 21 -->
+        <div class="question-block" id="q21">
+            <p class="question-title">21. Vous analysez la performance d'un tri rapide. Théoriquement O(n log n), vos mesures sont proches de O(n²). Quelle est la cause la plus plausible ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q21" value="a"> La machine de test est trop lente.</label></div>
+                <div><label><input type="radio" name="q21" value="b"> Le langage de programmation utilisé est inefficace.</label></div>
+                <div><label><input type="radio" name="q21" value="c"> Le choix du pivot est systématiquement le pire (ex: sur une liste déjà triée).</label></div>
+                <div><label><input type="radio" name="q21" value="d"> La complexité théorique ne s'applique jamais en pratique.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 22 -->
+        <div class="question-block" id="q22">
+            <p class="question-title">22. Pour détecter des anomalies dans une série temporelle, quelle méthode est la plus robuste face à des valeurs extrêmes qui ne sont pas des anomalies ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q22" value="a"> Le Z-score, car il est basé sur la moyenne et l'écart-type.</label></div>
+                <div><label><input type="radio" name="q22" value="b"> L'écart interquartile (IQR), car la médiane et les quartiles sont moins sensibles aux extrêmes.</label></div>
+                <div><label><input type="radio" name="q22" value="c"> Un seuil fixe basé sur un pourcentage de la valeur maximale.</label></div>
+                <div><label><input type="radio" name="q22" value="d"> N'importe laquelle de ces méthodes, elles sont toutes équivalentes.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 23 -->
+        <div class="question-block" id="q23">
+            <p class="question-title">23. Un système d'exploitation a un processus P1 qui détient la ressource R1 et demande R2, tandis que P2 détient R2 et demande R1. Cette situation est un exemple de :</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q23" value="a"> Famine (Starvation)</label></div>
+                <div><label><input type="radio" name="q23" value="b"> Condition de concurrence (Race Condition)</label></div>
+                <div><label><input type="radio" name="q23" value="c"> Fragmentation</label></div>
+                <div><label><input type="radio" name="q23" value="d"> Interblocage (Deadlock)</label></div>
+            </div>
+        </div>
+        
+        <!-- Question 24 -->
+        <div class="question-block" id="q24">
+            <p class="question-title">24. Pour optimiser un site web dans une démarche Green IT, vous devez réduire le poids des images sans perte de qualité visible. Quelle stratégie est la plus appropriée ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q24" value="a"> Convertir toutes les images en format BMP non compressé.</label></div>
+                <div><label><input type="radio" name="q24" value="b"> Utiliser des formats modernes comme WebP avec une compression optimisée.</label></div>
+                <div><label><input type="radio" name="q24" value="c"> Augmenter la résolution de toutes les images pour une meilleure qualité.</label></div>
+                <div><label><input type="radio" name="q24" value="d"> Intégrer les images directement en Base64 dans le code HTML.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 25 -->
+        <div class="question-block" id="q25">
+            <p class="question-title">25. Que garantit une signature numérique ? (Plusieurs réponses possibles)</p>
+            <div class="answers" data-type="checkbox" data-correct='["a", "b", "c"]'>
+                <div><label><input type="checkbox" name="q25" value="a"> L'authenticité (prouve l'identité de l'expéditeur).</label></div>
+                <div><label><input type="checkbox" name="q25" value="b"> L'intégrité (prouve que le message n'a pas été modifié).</label></div>
+                <div><label><input type="checkbox" name="q25" value="c"> La non-répudiation (l'expéditeur ne peut nier avoir envoyé le message).</label></div>
+                <div><label><input type="checkbox" name="q25" value="d"> La confidentialité (empêche la lecture du message par des tiers).</label></div>
+            </div>
+        </div>
+
+        <!-- Question 26 -->
+        <div class="question-block" id="q26">
+            <p class="question-title">26. Une fonction récursive est définie par la relation `T(n) = 2 * T(n/2) + O(n)`. Selon le master theorem, quelle est sa complexité temporelle ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q26" value="a"> O(n)</label></div>
+                <div><label><input type="radio" name="q26" value="b"> O(n²)</label></div>
+                <div><label><input type="radio" name="q26" value="c"> O(n log n)</label></div>
+                <div><label><input type="radio" name="q26" value="d"> O(log n)</label></div>
+            </div>
+        </div>
+
+        <!-- Question 27 -->
+        <div class="question-block" id="q27">
+            <p class="question-title">27. Pour modéliser la propagation d'une information sur un réseau, quel algorithme de parcours de graphe simule une diffusion "par vagues" ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q27" value="a"> Le parcours en largeur (BFS)</label></div>
+                <div><label><input type="radio" name="q27" value="b"> Le parcours en profondeur (DFS)</label></div>
+                <div><label><input type="radio" name="q27" value="c"> L'algorithme de Dijkstra</label></div>
+                <div><label><input type="radio" name="q27" value="d"> L'algorithme de Kruskal</label></div>
+            </div>
+        </div>
+
+        <!-- Question 28 -->
+        <div class="question-block" id="q28">
+            <p class="question-title">28. L'IQR est plus robuste que le Z-score pour détecter des anomalies car :</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q28" value="a"> Il est plus facile à calculer.</label></div>
+                <div><label><input type="radio" name="q28" value="b"> Il fonctionne uniquement sur des entiers.</label></div>
+                <div><label><input type="radio" name="q28" value="c"> Il suppose une distribution normale des données.</label></div>
+                <div><label><input type="radio" name="q28" value="d"> Il est basé sur la médiane, qui est moins sensible aux valeurs extrêmes.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 29 -->
+        <div class="question-block" id="q29">
+            <p class="question-title">29. Comparer la complexité de l'ajout d'un sommet dans un graphe représenté par une matrice d'adjacence par rapport à une liste d'adjacence.</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q29" value="a"> Plus rapide avec la matrice car l'accès est en O(1).</label></div>
+                <div><label><input type="radio" name="q29" value="b"> Plus lent avec la matrice (O(V²)) car elle doit être redimensionnée, contre O(1) pour la liste.</label></div>
+                <div><label><input type="radio" name="q29" value="c"> La complexité est la même pour les deux structures.</label></div>
+                <div><label><input type="radio" name="q29" value="d"> Plus rapide avec la liste uniquement si le graphe est peu dense.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 30 -->
+        <div class="question-block" id="q30">
+            <p class="question-title">30. Quel algorithme de planification (ordonnancement) des processus est optimal pour minimiser le temps d'attente moyen, mais difficile à implémenter en pratique ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q30" value="a"> Premier arrivé, premier servi (FIFO)</label></div>
+                <div><label><input type="radio" name="q30" value="b"> Tourniquet (Round Robin)</label></div>
+                <div><label><input type="radio" name="q30" value="c"> Le plus court d'abord (Shortest Job First)</label></div>
+                <div><label><input type="radio" name="q30" value="d"> Planification par priorité</label></div>
+            </div>
+        </div>
+
+    </form>
+    
+    <button type="button" onclick="corrigerQuiz()">Corriger</button>
+    <div id="resultat"></div>
+
+    <script>
+        function corrigerQuiz() {
+            const form = document.getElementById('quizForm');
+            const questions = form.querySelectorAll('.question-block');
+            let score = 0;
+            const totalQuestions = questions.length;
+
+            questions.forEach(question => {
+                const answersDiv = question.querySelector('.answers');
+                const type = answersDiv.dataset.type;
+                const correctAnswers = JSON.parse(answersDiv.dataset.correct);
+                const inputs = question.querySelectorAll('input');
+                let isQuestionCorrect = false;
+
+                if (type === 'radio') {
+                    const checkedInput = question.querySelector('input:checked');
+                    if (checkedInput && correctAnswers.includes(checkedInput.value)) {
+                        isQuestionCorrect = true;
+                    }
+                } else if (type === 'checkbox') {
+                    const checkedValues = Array.from(question.querySelectorAll('input:checked')).map(i => i.value);
+                    const sortedChecked = [...checkedValues].sort();
+                    const sortedCorrect = [...correctAnswers].sort();
+                    if (JSON.stringify(sortedChecked) === JSON.stringify(sortedCorrect)) {
+                        isQuestionCorrect = true;
+                    }
+                }
+
+                if (isQuestionCorrect) {
+                    score++;
+                }
+
+                // Apply styling to all options
+                inputs.forEach(input => {
+                    const answerDiv = input.closest('.answers > div');
+                    answerDiv.className = ''; // Reset classes
+
+                    const isCorrectChoice = correctAnswers.includes(input.value);
+
+                    if (input.checked) {
+                        if (isCorrectChoice) {
+                            answerDiv.classList.add('correct');
+                        } else {
+                            answerDiv.classList.add('incorrect');
+                        }
+                    } else {
+                        if (isCorrectChoice) {
+                            answerDiv.classList.add('missed-correct');
+                        }
+                    }
+                });
+            });
+
+            const resultatDiv = document.getElementById('resultat');
+            resultatDiv.innerHTML = `Votre score est de ${score} / ${totalQuestions}`;
+            window.scrollTo(0, 0);
+        }
+    </script>
+
+</body>
+</html>

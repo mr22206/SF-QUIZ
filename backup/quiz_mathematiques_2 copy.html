@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Mathématiques 2 (Version Révisée)</title>
+    <link rel="stylesheet" href="quiz_style.css">
+</head>
+<body>
+
+    <h1>Quiz - Mathématiques 2 (Version Révisée)</h1>
+    <p>Ce quiz contient 30 questions pratiques vous demandant d'appliquer des formules et des raisonnements. Préparez une feuille de papier et une calculatrice.</p>
+    
+    <form id="quizForm">
+        
+        <h2>Questions Faciles</h2>
+
+        <!-- Question 1 -->
+        <div class="question-block" id="q1">
+            <p class="question-title">1. Une urne contient 7 boules rouges et 3 boules bleues. Quelle est la probabilité de tirer une boule bleue ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q1" value="a"> 7/10</label></div>
+                <div><label><input type="radio" name="q1" value="b"> 3/7</label></div>
+                <div><label><input type="radio" name="q1" value="c"> 3/10</label></div>
+                <div><label><input type="radio" name="q1" value="d"> 1/10</label></div>
+            </div>
+        </div>
+        
+        <!-- Question 2 -->
+        <div class="question-block" id="q2">
+            <p class="question-title">2. Pour la série de données [1, 1, 2, 3, 5, 8], quelle est la moyenne (arrondie à 0.01 près) ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q2" value="a"> 3.00</label></div>
+                <div><label><input type="radio" name="q2" value="b"> 3.33</label></div>
+                <div><label><input type="radio" name="q2" value="c"> 2.50</label></div>
+                <div><label><input type="radio" name="q2" value="d"> 20.00</label></div>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-block" id="q3">
+            <p class="question-title">3. Un site web a en moyenne 5 visiteurs par heure. Quelle loi de probabilité est la plus adaptée pour modéliser le nombre de visiteurs dans une heure donnée ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q3" value="a"> Loi Binomiale</label></div>
+                <div><label><input type="radio" name="q3" value="b"> Loi de Poisson</label></div>
+                <div><label><input type="radio" name="q3" value="c"> Loi Normale</label></div>
+                <div><label><input type="radio" name="q3" value="d"> Loi Uniforme</label></div>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question-block" id="q4">
+            <p class="question-title">4. Pour la série de données [10, 8, 12, 5, 15], quel est le mode ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q4" value="a"> 10</label></div>
+                <div><label><input type="radio" name="q4" value="b"> 12</label></div>
+                <div><label><input type="radio" name="q4" value="c"> 5</label></div>
+                <div><label><input type="radio" name="q4" value="d"> Il n'y a pas de mode.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question-block" id="q5">
+            <p class="question-title">5. Si la variance d'un ensemble de données est 16, quel est son écart-type ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q5" value="a"> 256</label></div>
+                <div><label><input type="radio" name="q5" value="b"> 4</label></div>
+                <div><label><input type="radio" name="q5" value="c"> 8</label></div>
+                <div><label><input type="radio" name="q5" value="d"> 16</label></div>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question-block" id="q6">
+            <p class="question-title">6. On lance une pièce de monnaie 100 fois. Elle tombe 60 fois sur "Face". Quelle est la fréquence observée de "Face" ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q6" value="a"> 0.5</label></div>
+                <div><label><input type="radio" name="q6" value="b"> 60</label></div>
+                <div><label><input type="radio" name="q6" value="c"> 0.6</label></div>
+                <div><label><input type="radio" name="q6" value="d"> 40</label></div>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question-block" id="q7">
+            <p class="question-title">7. La droite de régression entre le poids (y, en kg) et la taille (x, en cm) est y = 0.8x - 60. Quel est le poids prédit pour une personne mesurant 180 cm ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q7" value="a"> 84 kg</label></div>
+                <div><label><input type="radio" name="q7" value="b"> 120 kg</label></div>
+                <div><label><input type="radio" name="q7" value="c"> 72 kg</label></div>
+                <div><label><input type="radio" name="q7" value="d"> 144 kg</label></div>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question-block" id="q8">
+            <p class="question-title">8. Deux événements sont dits "mutuellement exclusifs" si :</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q8" value="a"> Leur probabilité est la même.</label></div>
+                <div><label><input type="radio" name="q8" value="b"> Ils ne peuvent pas se produire en même temps.</label></div>
+                <div><label><input type="radio" name="q8" value="c"> Ils sont indépendants.</label></div>
+                <div><label><input type="radio" name="q8" value="d"> La somme de leurs probabilités est 1.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question-block" id="q9">
+            <p class="question-title">9. Dans un test d'hypothèse, si on diminue le seuil alpha (ex: de 0.05 à 0.01), le risque d'erreur de Type I :</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q9" value="a"> Diminue</label></div>
+                <div><label><input type="radio" name="q9" value="b"> Augmente</label></div>
+                <div><label><input type="radio" name="q9" value="c"> Ne change pas</label></div>
+                <div><label><input type="radio" name="q9" value="d"> Dépend de la p-value</label></div>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question-block" id="q10">
+            <p class="question-title">10. On lance un dé à 6 faces. Quelle est la probabilité d'obtenir un 3 ou un 5 ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q10" value="a"> 1/6</label></div>
+                <div><label><input type="radio" name="q10" value="b"> 1/2</label></div>
+                <div><label><input type="radio" name="q10" value="c"> 1/3 (2/6)</label></div>
+                <div><label><input type="radio" name="q10" value="d"> 1/36</label></div>
+            </div>
+        </div>
+        
+        <h2>Questions Moyennes</h2>
+
+        <!-- Question 11 -->
+        <div class="question-block" id="q11">
+            <p class="question-title">11. On lance deux dés à 6 faces. Le premier dé tombe sur 4. Quelle est la probabilité que la somme des deux dés soit supérieure à 8 ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q11" value="a"> 1/3 (2/6)</label></div>
+                <div><label><input type="radio" name="q11" value="b"> 1/2 (3/6)</label></div>
+                <div><label><input type="radio" name="q11" value="c"> 4/36</label></div>
+                <div><label><input type="radio" name="q11" value="d"> 5/36</label></div>
+            </div>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="question-block" id="q12">
+            <p class="question-title">12. Pour un ensemble de données, le premier quartile (Q1) est 20 et le troisième quartile (Q3) est 50. Une valeur est considérée comme aberrante si elle est supérieure à Q3 + 1.5 * IQR. A partir de quelle valeur une donnée est-elle aberrante ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q12" value="a"> 70</label></div>
+                <div><label><input type="radio" name="q12" value="b"> 80</label></div>
+                <div><label><input type="radio" name="q12" value="c"> 90</label></div>
+                <div><label><input type="radio" name="q12" value="d"> 95</label></div>
+            </div>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question-block" id="q13">
+            <p class="question-title">13. Une variable aléatoire X suit une loi binomiale B(8, 0.5). Quelle est sa variance ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q13" value="a"> 4</label></div>
+                <div><label><input type="radio" name="q13" value="b"> 2</label></div>
+                <div><label><input type="radio" name="q13" value="c"> 8</label></div>
+                <div><label><input type="radio" name="q13" value="d"> 0.5</label></div>
+            </div>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question-block" id="q14">
+            <p class="question-title">14. On considère deux événements A et B avec P(A) = 0.6, P(B) = 0.4 et P(A ∩ B) = 0.3. Quelle est la probabilité de A sachant B, soit P(A|B) ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q14" value="a"> 0.5</label></div>
+                <div><label><input type="radio" name="q14" value="b"> 0.6</label></div>
+                <div><label><input type="radio" name="q14" value="c"> 0.75</label></div>
+                <div><label><input type="radio" name="q14" value="d"> 0.3</label></div>
+            </div>
+        </div>
+
+        <!-- Question 15 -->
+        <div class="question-block" id="q15">
+            <p class="question-title">15. Le temps de chargement d'une page web suit une loi normale de moyenne 4 secondes et d'écart-type 0.5 seconde. Quel est le Z-score d'une page qui charge en 5.5 secondes ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q15" value="a"> 3</label></div>
+                <div><label><input type="radio" name="q15" value="b"> 1.5</label></div>
+                <div><label><input type="radio" name="q15" value="c"> 2</label></div>
+                <div><label><input type="radio" name="q15" value="d"> -3</label></div>
+            </div>
+        </div>
+
+        <!-- Question 16 -->
+        <div class="question-block" id="q16">
+            <p class="question-title">16. Pour la série de données [2, 5, 8, 10, 15], calculez l'écart-type (arrondi à 0.01 près).</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q16" value="a"> 8.00</label></div>
+                <div><label><input type="radio" name="q16" value="b"> 20.80</label></div>
+                <div><label><input type="radio" name="q16" value="c"> 4.56</label></div>
+                <div><label><input type="radio" name="q16" value="d"> 4.58</label></div>
+            </div>
+        </div>
+
+        <!-- Question 17 -->
+        <div class="question-block" id="q17">
+            <p class="question-title">17. Deux entreprises choisissent entre "Innover" (I) ou "Conserver" (C). La matrice des gains (A, B) est :<br>
+            I / I : (5, 5)<br>
+            I / C : (12, 2)<br>
+            C / I : (2, 12)<br>
+            C / C : (8, 8)<br>
+            Quel est l'équilibre de Nash ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q17" value="a"> (Innover, Innover)</label></div>
+                <div><label><input type="radio" name="q17" value="b"> (Conserver, Conserver)</label></div>
+                <div><label><input type="radio" name="q17" value="c"> (Innover, Conserver)</label></div>
+                <div><label><input type="radio" name="q17" value="d"> Il n'y en a pas.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 18 -->
+        <div class="question-block" id="q18">
+            <p class="question-title">18. Un manager estime à 70% la probabilité de succès d'un projet. S'il réussit, le gain est de 100 000€. S'il échoue, la perte est de 40 000€. Quelle est l'espérance de gain de ce projet ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q18" value="a"> 70 000€</label></div>
+                <div><label><input type="radio" name="q18" value="b"> 58 000€</label></div>
+                <div><label><input type="radio" name="q18" value="c"> 60 000€</label></div>
+                <div><label><input type="radio" name="q18" value="d"> 30 000€</label></div>
+            </div>
+        </div>
+
+        <!-- Question 19 -->
+        <div class="question-block" id="q19">
+            <p class="question-title">19. Pour une série de données, la moyenne est 50 et la médiane est 60. Qu'est-ce que cela suggère sur la distribution des données ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q19" value="a"> Une asymétrie à gauche (étalée vers les petites valeurs).</label></div>
+                <div><label><input type="radio" name="q19" value="b"> Une asymétrie à droite (étalée vers les grandes valeurs).</label></div>
+                <div><label><input type="radio" name="q19" value="c"> La distribution est symétrique.</label></div>
+                <div><label><input type="radio" name="q19" value="d"> La variance est grande.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 20 -->
+        <div class="question-block" id="q20">
+            <p class="question-title">20. Quelle est la probabilité de tirer une Reine ou un Coeur dans un jeu de 52 cartes ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q20" value="a"> 17/52</label></div>
+                <div><label><input type="radio" name="q20" value="b"> 16/52</label></div>
+                <div><label><input type="radio" name="q20" value="c"> 1/52</label></div>
+                <div><label><input type="radio" name="q20" value="d"> 16/52 (4/13)</label></div>
+            </div>
+        </div>
+
+        <h2>Questions Difficiles</h2>
+
+        <!-- Question 21 -->
+        <div class="question-block" id="q21">
+            <p class="question-title">21. Vous avez les données suivantes entre X et Y :<br>
+            X: [1, 2, 3, 4]<br>
+            Y: [2, 4, 5, 7]<br>
+            Calculez la covariance entre X et Y.</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q21" value="a"> 2.25</label></div>
+                <div><label><input type="radio" name="q21" value="b"> 2.5</label></div>
+                <div><label><input type="radio" name="q21" value="c"> 1.25</label></div>
+                <div><label><input type="radio" name="q21" value="d"> 1.5</label></div>
+            </div>
+        </div>
+
+        <!-- Question 22 -->
+        <div class="question-block" id="q22">
+            <p class="question-title">22. En utilisant le résultat précédent (Cov(X,Y)=2.25) et sachant que Var(X)=1.25 et Var(Y)=3.6875, calculez le coefficient de corrélation de Pearson (r).</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q22" value="a"> 0.85</label></div>
+                <div><label><input type="radio" name="q22" value="b"> 0.98</label></div>
+                <div><label><input type="radio" name="q22" value="c"> 1.00</label></div>
+                <div><label><input type="radio" name="q22" value="d"> 0.61</label></div>
+            </div>
+        </div>
+
+        <!-- Question 23 -->
+        <div class="question-block" id="q23">
+            <p class="question-title">23. On lance une pièce 5 fois. Quelle est la probabilité d'obtenir exactement 2 "Face" ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q23" value="a"> 10/16</label></div>
+                <div><label><input type="radio" name="q23" value="b"> 5/32</label></div>
+                <div><label><input type="radio" name="q23" value="c"> 10/32</label></div>
+                <div><label><input type="radio" name="q23" value="d"> 2/5</label></div>
+            </div>
+        </div>
+        
+        <!-- Question 24 -->
+        <div class="question-block" id="q24">
+            <p class="question-title">24. On veut tester si un nouveau site web est plus efficace que l'ancien. On mesure le temps passé par deux groupes d'utilisateurs. Quel test statistique est le plus approprié pour comparer les temps moyens des deux groupes ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q24" value="a"> Test du Chi-deux</label></div>
+                <div><label><input type="radio" name="q24" value="b"> Test t de Student pour échantillons indépendants</label></div>
+                <div><label><input type="radio" name="q24" value="c"> Corrélation de Pearson</label></div>
+                <div><label><input type="radio" name="q24" value="d"> Régression linéaire</label></div>
+            </div>
+        </div>
+
+        <!-- Question 25 -->
+        <div class="question-block" id="q25">
+            <p class="question-title">25. Dans un jeu, deux joueurs choisissent un nombre entre 1 et 3. Si la somme est paire, le joueur A gagne. Si elle est impaire, le joueur B gagne. Quelle est la meilleure stratégie pour le joueur A ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q25" value="a"> Toujours jouer 1.</label></div>
+                <div><label><input type="radio" name="q25" value="b"> Toujours jouer 2.</label></div>
+                <div><label><input type="radio" name="q25" value="c"> Il n'y a pas de stratégie pure dominante, une stratégie mixte est nécessaire.</label></div>
+                <div><label><input type="radio" name="q25" value="d"> Alterner entre 1 et 3.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 26 -->
+        <div class="question-block" id="q26">
+            <p class="question-title">26. Une compagnie d'assurance sait que 0.1% de ses clients auront un accident majeur cette année. Elle a 10 000 clients. En utilisant une approximation par la loi de Poisson, quelle est l'espérance du nombre d'accidents majeurs ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q26" value="a"> 10</label></div>
+                <div><label><input type="radio" name="q26" value="b"> 100</label></div>
+                <div><label><input type="radio" name="q26" value="c"> 1</label></div>
+                <div><label><input type="radio" name="q26" value="d"> 0.1</label></div>
+            </div>
+        </div>
+
+        <!-- Question 27 -->
+        <div class="question-block" id="q27">
+            <p class="question-title">27. En utilisant le contexte de la question précédente (loi de Poisson avec λ=10), quelle est la probabilité qu'il y ait exactement 5 accidents ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q27" value="a"> 0.125</label></div>
+                <div><label><input type="radio" name="q27" value="b"> 0.003</label></div>
+                <div><label><input type="radio" name="q27" value="c"> 0.037</label></div>
+                <div><label><input type="radio" name="q27" value="d"> 0.05</label></div>
+            </div>
+        </div>
+
+        <!-- Question 28 -->
+        <div class="question-block" id="q28">
+            <p class="question-title">28. Si le coefficient de détermination (R²) d'un modèle de régression est de 0.64, que vaut le coefficient de corrélation (r), en supposant une pente positive ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q28" value="a"> 0.64</label></div>
+                <div><label><input type="radio" name="q28" value="b"> 0.8</label></div>
+                <div><label><input type="radio" name="q28" value="c"> 0.4096</label></div>
+                <div><label><input type="radio" name="q28" value="d"> On ne peut pas savoir.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 29 -->
+        <div class="question-block" id="q29">
+            <p class="question-title">29. On lance deux dés. Quelle est la probabilité que le premier dé soit un 6, sachant que la somme des deux dés est 8 ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q29" value="a"> 1/5</label></div>
+                <div><label><input type="radio" name="q29" value="b"> 1/6</label></div>
+                <div><label><input type="radio" name="q29" value="c"> 1/36</label></div>
+                <div><label><input type="radio" name="q29" value="d"> 5/36</label></div>
+            </div>
+        </div>
+
+        <!-- Question 30 -->
+        <div class="question-block" id="q30">
+            <p class="question-title">30. Dans un jeu séquentiel, le joueur A choisit "Haut" ou "Bas". Si A choisit "Haut", le jeu s'arrête et les gains sont (2,0). Si A choisit "Bas", le joueur B choisit "Gauche" ou "Droite". B/G donne (3,1) et B/D donne (1,2). Quel est le résultat prédit par l'induction à rebours ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q30" value="a"> (2,0) - A choisit Haut.</label></div>
+                <div><label><input type="radio" name="q30" value="b"> (3,1) - A choisit Bas, B choisit Gauche.</label></div>
+                <div><label><input type="radio" name="q30" value="c"> (1,2) - A choisit Bas, B choisit Droite.</label></div>
+                <div><label><input type="radio" name="q30" value="d"> (1,2) - A choisit Bas, B choisit Droite car il maximise son gain, et A anticipe ce choix.</label></div>
+            </div>
+        </div>
+
+    </form>
+    
+    <button type="button" onclick="corrigerQuiz()">Corriger</button>
+    <div id="resultat"></div>
+
+    <script>
+        function corrigerQuiz() {
+            const form = document.getElementById('quizForm');
+            const questions = form.querySelectorAll('.question-block');
+            let score = 0;
+            const totalQuestions = questions.length;
+
+            questions.forEach(question => {
+                const answersDiv = question.querySelector('.answers');
+                const type = answersDiv.dataset.type;
+                const correctAnswers = JSON.parse(answersDiv.dataset.correct);
+                const inputs = question.querySelectorAll('input');
+                let isQuestionCorrect = false;
+
+                if (type === 'radio') {
+                    const checkedInput = question.querySelector('input:checked');
+                    if (checkedInput && correctAnswers.includes(checkedInput.value)) {
+                        isQuestionCorrect = true;
+                    }
+                } else if (type === 'checkbox') {
+                    const checkedValues = Array.from(question.querySelectorAll('input:checked')).map(i => i.value);
+                    const sortedChecked = [...checkedValues].sort();
+                    const sortedCorrect = [...correctAnswers].sort();
+                    if (JSON.stringify(sortedChecked) === JSON.stringify(sortedCorrect)) {
+                        isQuestionCorrect = true;
+                    }
+                }
+
+                if (isQuestionCorrect) {
+                    score++;
+                }
+
+                // Apply styling to all options
+                inputs.forEach(input => {
+                    const answerDiv = input.closest('.answers > div');
+                    answerDiv.className = ''; // Reset classes
+
+                    const isCorrectChoice = correctAnswers.includes(input.value);
+
+                    if (input.checked) {
+                        if (isCorrectChoice) {
+                            answerDiv.classList.add('correct');
+                        } else {
+                            answerDiv.classList.add('incorrect');
+                        }
+                    } else {
+                        if (isCorrectChoice) {
+                            answerDiv.classList.add('missed-correct');
+                        }
+                    }
+                });
+            });
+
+            const resultatDiv = document.getElementById('resultat');
+            resultatDiv.innerHTML = `Votre score est de ${score} / ${totalQuestions}`;
+            window.scrollTo(0, 0);
+        }
+    </script>
+
+</body>
+</html>

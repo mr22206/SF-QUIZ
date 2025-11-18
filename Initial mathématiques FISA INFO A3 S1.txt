@@ -1,0 +1,327 @@
+Initial mathématiques FISA INFO A3 S1 - I
+Échelle d'évaluation standard : A (% de réussite supérieur à 75%)
+ Question 1
+On lance deux dés équilibrés à 6 faces. Définissons les événements suivants :
+A : "La somme des deux dés est égale à 7"
+.
+B : "Au moins un des deux dés affiche la valeur 4"
+.
+Les réponses doivent être exprimées sous forme décimale et arrondies à 0,01 près.
+Question à valeurs numériques
+Réponses partiellement correctes 1 discordance
+Réponse attendue Réponse saisie Réponse discordante
+Calculer P(A) [ 0.15 ; 0.17 ] 0.17 Non
+ Commentaire de correction de la proposition
+Calculer P(B) [ 0.29 ; 0.31 ] 0.31 Non
+ Commentaire de correction de la proposition
+Calculer P( ) [ 0.26 ; 0.28 ] 0.05 Oui (+1)
+ Commentaire de correction de la proposition
+1/9
+ Question 2
+Question à valeurs numériques
+On considère une variable aléatoire X qui suit une loi binomiale avec les paramètres n=5 et p=0.4. Calculez les valeurs
+demandées. Les résultats doivent être exprimés sous forme décimale, arrondis à 0,0001 près.
+Réponses correctes 0 discordance
+Réponse attendue Réponse saisie Réponse discordante
+La probabilité [ 0.2304 ; 0.2304 ] 0.2304 Non
+ Commentaire de correction de la proposition
+L'espérance [ 2 ; 2 ] 2 Non
+ Commentaire de correction de la proposition
+La variance [ 1.2 ; 1.2 ] 1.2 Non
+ Commentaire de correction de la proposition
+ Commentaire de correction de la question
+ Question 3
+Question à réponses
+multiples
+Parmi les propositions suivantes relatives aux notions fondamentales des statistiques descriptives, identifiez celle qui est
+correcte.
+Réponses correctes 0 discordance
+Réponse
+attendue
+Réponse
+saisie
+Réponse
+discordante
+A ■ ■ Non La moyenne est toujours plus élevée que la médiane dans une distribution normale
+B ■ ■ Non L'écart-type mesure la dispersion des données par rapport à la médiane.
+C ☑ ☑ Non Dans une distribution normale, environ 68% des valeurs se situent à un
+écart-type de la moyenne.
+D ■ ■ Non La médiane est influencée par les valeurs extrêmes dans un ensemble de
+données.
+E ■ ■ Non La loi normale est également appelée loi de Poisson.
+2/9
+ Question 4
+Quelle est la propriété essentielle de la médiane dans un ensemble de données ?
+Question à réponses
+multiples
+Réponses correctes 0 discordance
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Elle est toujours égale à la moyenne.
+B ☑ ☑ Non Elle divise les données en deux parties égales.
+C ■ ■ Non Elle est influencée par les valeurs extrêmes.
+D ■ ■ Non Elle représente le mode de la distribution.
+E ■ ■ Non Elle est toujours inférieure à l'écart-type.
+ Question 5
+Question à valeurs numériques
+Les données suivantes montrent la relation entre le nombre d’heures passées sur la conception d’objets en bois et le nombre
+d’objets crées :
+Heures de conception (x) Nombre de goodies (y)
+2 40
+3 50
+5 65
+7 75
+9 85
+On détermine l'équation de la droite de régression à partir de la méthode des moindres carrés.
+Réponses partiellement correctes 1 discordance
+Réponse
+attendue
+Quelle est la valeur du coefficient directeur de la droite ? (à 0.01 près) Réponse
+saisie
+[ 6.3 ; 6.3 ] 6.31 Réponse
+discordante
+Oui (+1)
+ Commentaire de correction de la proposition
+Quelle est la valeur de l'ordonnée à l'origine de la droite ? (à 0.01 près) [ 30.18 ; 30.18 ] 30.18 Non
+ Commentaire de correction de la proposition
+A partir de la droite, déduire le nombre d’objets en bois créés après 6
+heures de conception.
+[ 68 ; 68 ] 68 Non
+ Commentaire de correction de la proposition
+3/9
+ Question 6
+Question à valeurs numériques
+Les données suivantes illustrent la relation entre le nombre d’heures d’ensoleillement et le nombre de jeunes pousses d’arbres
+observées.
+X (Heures d’ensoleillement) Y (Nombre de jeune pousse)
+4 100
+6 150
+8 200
+10 250
+12 300
+Réponses partiellement correctes 1 discordance
+Réponse
+attendue
+[ 8 ; 8 ] Réponse
+saisie
+Réponse
+discordante
+8 Non
+Quelle est la moyenne de la colonne « heures d’ensoleillement »?  Commentaire de correction de la proposition
+Quelle est la moyenne du nombre de jeunes pousses d’arbre ? [ 200 ; 200
+]
+200 Non
+ Commentaire de correction de la proposition
+Que vaut la covariance de ces données ? [ 250 ; 250
+]
+200 Oui (+1)
+ Commentaire de correction de la proposition
+Comment est la relation linéaire de ces deux variables ? Indiquer -1 si elle est
+négative, +1 si elle est positive et 0 s'il n'y a aucune corrélation.
+ Commentaire de correction de la proposition
+[ 1 ; 1 ] 1 Non
+ Question 7
+Question à réponse unique
+Dans le cadre de la construction d’un intervalle de confiance à 95 % pour une moyenne, que représente précisément ce niveau
+de confiance ?
+Réponses correctes
+Réponse
+attendue
+Réponse
+saisie
+Réponse
+discordante
+A ■ ■ Non 95% des valeurs de l'échantillon se situent dans l'intervalle.
+B ☑ ☑ Non 95% des échantillons produiraient des intervalles contenant la véritable
+moyenne de la population.
+C ■ ■ Non La probabilité que la moyenne soit dans l'intervalle est de 95%.
+D ■ ■ Non L'échantillon doit contenir au moins 95 données.
+E ■ ■ Non L'intervalle ne peut pas dépasser 95 unités.
+4/9
+ Question 8
+Question à réponse unique
+Lorsque l’on applique la méthode des moindres carrés pour estimer une régression linéaire, quel est l'objectif principal de cette
+méthode ?
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Maximiser la somme des résidus.
+B ☑ ☑ Non Minimiser la somme des carrés des résidus.
+C ■ ■ Non Trouver la médiane des données.
+D ■ ■ Non Calculer l'écart-type des données.
+E ■ ■ Non Déterminer la moyenne des valeurs prédites.
+ Question 9
+Lors de la construction d'un test d'hypothèse, que représente l'hypothèse nulle (H0) ?
+Question à réponse unique
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non L'hypothèse que l'on cherche à prouver.
+B ☑ ☑ Non L'hypothèse de non-différence ou de non-effet.
+C ■ ■ Non L'hypothèse alternative.
+D ■ ■ Non La moyenne des données.
+E ■ ■ Non L'écart-type de la population.
+ Question 10
+Quel est l'objectif fondamental d'un test statistique en analyse de données ?
+Question à réponse unique
+Réponses correctes
+Réponse
+attendue
+Réponse
+saisie
+Réponse
+discordante
+A ■ ■ Non Déterminer la moyenne d'un échantillon.
+B ☑ ☑ Non Évaluer si les résultats observés sont significativement différents de
+ceux attendus.
+C ■ ■ Non Calculer l'écart-type d'un ensemble de données.
+D ■ ■ Non Décrire la distribution des données.
+E ■ ■ Non Estimer la taille de l'échantillon nécessaire pour une étude.
+5/9
+ Question 11
+Question à valeurs numériques
+Une entreprise souhaite évaluer le poids moyen de ses produits. Pour ce faire, elle prélève au hasard un échantillon de 100
+produits et mesure leur poids. L'échantillon donne une moyenne de 7,5 kg et un écart-type de 0,35 kg.
+Réponses correctes 0 discordance
+Réponse
+attendue
+Réponse
+saisie
+[ 7.43 ; 7.43 ] 7.43 Non
+Réponse
+discordante
+Donner la valeur minimale de l’intervalle de confiance à 95% au
+centième près ?
+ Commentaire de correction de la proposition
+ Question 12
+Question à réponse unique
+Quelles sont les principales informations que l'on peut obtenir à partir des statistiques descriptives d'un jeu de données ?.
+Réponses correctes
+Réponse
+attendue
+Réponse
+saisie
+Réponse
+discordante
+A ■ ■ Non La corrélation entre deux variables indépendantes.
+B ☑ ☑ Non La tendance centrale, la dispersion et la forme des données.
+C ■ ■ Non Les intervalles de confiance pour des modèles prédictifs.
+D ■ ■ Non L’importance relative des caractéristiques pour les modèles
+d'apprentissage automatique.
+E ■ ■ Non Les biais et variances des algorithmes d'apprentissage
+ Question 13
+Question à réponse unique
+Quelle est la procédure appropriée pour appliquer un z-score afin d'identifier les anomalies dans une série temporelle en Python
+?
+Réponses correctes
+Réponse
+attendue
+Réponse
+saisie
+Réponse
+discordante
+A ■ ■ Non et les valeurs avec un z-score > 3 ou < -3 sont considérées
+comme des anomalies.
+B ■ ■ Non et les valeurs avec un z-score > 2 ou < -2 sont considérées
+comme des anomalies.
+C ☑ ☑ Non
+et les valeurs avec un z-score > 3 ou < -3 sont
+considérées comme des anomalies.
+D ■ ■ Non et les valeurs avec un z-score > 2 ou < -2 sont considérées
+comme des anomalies.
+E ■ ■ Non et les valeurs avec un z-score < 2 ou > -2 sont considérées
+comme des anomalies.
+6/9
+ Question 14
+Question à réponses
+multiples
+Deux entreprises, X et Y, envisagent d'entrer sur le même marché. Chacune doit choisir entre entrer sur le marché (E) ou rester
+à l'extérieur (R). Le tableau suivant présente les bénéfices des deux entreprises en fonction des décisions qu'elles prennent.
+Société X / Y E R
+E (10,10) (20,0)
+R (0,20) (0,0)
+Cocher les affirmation vraies.
+Réponses partiellement correctes 2 discordances
+Réponse
+attendue
+Réponse
+saisie
+Réponse
+discordante
+A ☑ ☑ Non Entrer sur le marché pour l'entreprise X lui permet de maximiser ses
+gains
+B ■ ■ Non Il n'existe pas de stratégie dominante
+C ■ ☑ Oui (+1) L'équilibre de Nash se situe à (E,R).
+D ■ ■ Non L'équilibre de Nash se situe à (R,R)
+E ☑ ■ Oui (+1) L'équilibre de Nash se situe à (E,E)
+F ■ ■ Non L'équilibre de Nash se situe à (R,E)
+7/9
+ Question 15
+Question à valeurs numériques
+Un club sportif doit choisir entre deux équipements, A et B, en fonction des conditions météorologiques (ensoleillé ou pluvieux)
+prévues pour les jours à venir. Le tableau suivant montre les gains associés aux différentes combinaisons de choix.
+Météo / équipement A B
+Ensoleillé 1000 800
+Pluvieux 600 900
+La probabilité d’avoir du soleil est de 0,7, et celle d’avoir de la pluie est de 0,3.
+Réponses correctes 0 discordance
+Calculez l’espérance des gains pour le choix A. Réponse
+attendue
+[ 880 ; 880 ] Réponse
+saisie
+880 Réponse
+discordante
+Non
+ Commentaire de correction de la proposition
+Calculez l’espérance des gains pour le choix B. [ 830 ; 830 ] 830 Non
+ Commentaire de correction de la proposition
+Quel équipement le club doit-il choisir ? Répondre 0 pour l'équipement A et
+1 pour l'équipement B.
+ Commentaire de correction de la proposition
+[ 0 ; 0 ] 0 Oui (+1)
+ Commentaire de correction de la question
+ Question 16
+Question à réponses
+multiples
+Quelle méthode est utilisée pour calculer une statistique bivariée permettant d'évaluer la relation entre deux variables
+quantitatives ?
+Réponses correctes 0 discordance
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Le test de Chi-deux.
+B ■ ■ Non La moyenne des différences entre les deux variables.
+C ☑ ☑ Non Le coefficient de corrélation de Pearson.
+D ■ ■ Non L'écart-type des deux variables.
+E ■ ■ Non Le test t de Student pour échantillons appariés.
+8/9
+ Question 17
+Question à réponses
+multiples
+Quel type de graphique est utilisé pour visualiser la relation entre deux variables quantitatives dans une analyse bivariée ?
+Réponses correctes 0 discordance
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Un histogramme.
+B ☑ ☑ Non Un nuage de points (scatter plot).
+C ■ ■ Non Un diagramme en boîte (boxplot).
+D ■ ■ Non Un graphique en secteurs.
+E ■ ■ Non Un diagramme de dispersion à barres.
+ Question 18
+Question à réponses
+multiples
+Lorsqu'on analyse la relation entre une variable qualitative et une variable quantitative, quelle mesure bivariée permet de
+résumer cette relation ?
+Réponses correctes 0 discordance
+Réponse
+attendue
+Réponse
+saisie
+Réponse
+discordante
+A ■ ■ Non La moyenne des deux variables.
+B ■ ■ Non Le test de corrélation de Pearson.
+C ■ ■ Non Le coefficient de contingence.
+D ☑ ☑ Non La comparaison des moyennes des groupes à l’aide du test t de
+Student.
+E ■ ■ Non Le coefficient de détermination (R²).
+9/9

@@ -1,0 +1,179 @@
+Initial numériques FISA INFO A3 S1 - I
+Échelle d'évaluation standard : A (% de réussite supérieur à 75%)
+ Question 1
+Quel module Python est couramment utilisé pour lire et traiter des fichiers CSV ?
+Question à réponse unique
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Numpy
+B ■ ■ Non Scipy
+C ☑ ☑ Non Pandas
+D ■ ■ Non Seaborn
+E ■ ■ Non matplotlib.pyplot
+ Question 2
+Quelle fonction permet d'importer des données depuis un fichier CSV en Python ?
+Question à réponse unique
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ☑ ☑ Non Read
+csv
+_
+B ■ ■ Non Change
+_
+csv
+C ■ ■ Non Utter
+csv
+_
+D ■ ■ Non Perceive
+csv
+_
+E ■ ■ Non Deliver
+csv
+_
+ Question 3
+Question à réponse unique
+Quelle fonction en Python permet de calculer la moyenne des valeurs dans une colonne d'un tableau ou d'un DataFrame ?
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non moyenne()
+B ☑ ☑ Non mean()
+C ■ ■ Non std()
+D ■ ■ Non sqrt()
+E ■ ■ Non aucune des de ces réponses
+1/4
+ Question 4
+Question à réponse unique
+Quel code permet de filtrer les données et de limiter l'affichage jusqu'à la date du 31 mars 2024 ?
+Réponses correctes
+Réponse
+attendue
+Réponse
+saisie
+Réponse
+discordante
+A ☑ ☑ Non seattle
+data = data[(data['Location'] ==
+_
+'2024-03-31')]
+'Seattle') & (data['Date'] <=
+B ■ ■ Non seattle
+data = data[(data['Location'] =
+_
+'2024-03-31')]
+'Seattle') & (data['Date'] <=
+C ■ ■ Non seattle
+data = data[(data('Location') ==
+_
+'2024-03-31')]
+'Seattle') & (data('Date') <=
+D ■ ■ Non seattle
+data = data[(data('Location') =
+_
+'2024-03-31')]
+'Seattle') & (data('Date') <=
+E ■ ■ Non seattle
+data == data[(data['Location'] ==
+_
+2024-03-31)]
+'Seattle') & (data['Date'] <=
+ Question 5
+Quel code permet d'afficher les premières lignes d'un fichier CSV ?
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non First()
+B ■ ■ Non Headline()
+C ■ ■ Non Firstline()
+D ■ ■ Non Front()
+E ☑ ☑ Non Head()
+Question à réponse unique
+ Question 6
+Question à réponse unique
+Quel est le rôle principal d'un système d'exploitation dans la gestion des processus ?
+Réponses correctes
+Réponse
+attendue
+Réponse
+saisie
+Réponse
+discordante
+A ■ ■ Non Il permet aux processus de s’exécuter sans être interrompus.
+B ☑ ☑ Non Il gère la création, la planification, et la terminaison des
+processus.
+C ■ ■ Non Il alloue directement la mémoire matérielle aux processus.
+D ■ ■ Non Il permet uniquement la communication entre les processus.
+E ■ ■ Non Il surveille l’état des disques durs pour prévenir les erreurs.
+2/4
+ Question 7
+Question à réponse unique
+Parmi les outils suivants, lequel est le plus fréquemment utilisé pour surveiller la performance des processus et l'utilisation de la
+mémoire au sein d'un système d'exploitation ?
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Ping
+B ■ ■ Non Netstat
+C ☑ ☑ Non Task Manager (ou Gestionnaire de tâches)
+D ■ ■ Non Nslookup
+E ■ ■ Non Curl
+ Question 8
+En Python, quelle fonction de la bibliothèque NumPy permet d'obtenir l'écart-type d'un jeu de données ?
+Question à réponse unique
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non numpy.mean()
+B ■ ■ Non numpy.median()
+C ■ ■ Non numpy.var()
+D ☑ ☑ Non numpy.std()
+E ■ ■ Non numpy.mode()
+ Question 9
+Comment le système d'exploitation empêche-t-il qu'un processus accède à la mémoire d'un autre processus ?
+Question à réponse unique
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Le swap de mémoire
+B ■ ■ Non La mémoire virtuelle
+C ☑ ☑ Non La gestion de mémoire paginée
+D ■ ■ Non Le temps partagé
+E ■ ■ Non L’espace disque virtuel
+3/4
+ Question 10
+Question à réponse unique
+Quel outil d'analyse sous Windows permet de surveiller l'utilisation des ressources système (processeur, mémoire, disque,
+réseau) et de fournir des informations sur la performance du système sur une période spécifique ?
+Réponses correctes
+Réponse
+attendue Réponse saisie Réponse discordante
+A ■ ■ Non Gestionnaire des tâches
+B ■ ■ Non Observateur d'événements
+C ☑ ☑ Non Moniteur de performance
+D ■ ■ Non Outil de sauvegarde Windows
+E ■ ■ Non Utilitaire de gestion de disque
+ Question 11
+Question à réponses
+multiples
+Quels sont les mécanismes principaux utilisés par un système d'exploitation pour gérer efficacement la mémoire et orchestrer
+l'exécution des processus ?
+Réponses correctes 0 discordance
+Réponse
+attendue
+Réponse
+saisie
+Réponse
+discordante
+A ☑ ☑ Non Le mécanisme de "paging" (pagination) permet de diviser la mémoire physique en
+pages et de les allouer dynamiquement aux processus.
+B ☑ ☑ Non Le gestionnaire de mémoire virtuelle permet d'isoler chaque processus dans un
+espace mémoire séparé, mais ne gère pas la mémoire physique.
+C ■ ■ Non Le planificateur de processus est responsable de la gestion de la mémoire, en
+allouant des espaces mémoire à chaque processus en fonction de leur priorité.
+D ☑ ☑ Non Le mécanisme de "segmentation" permet de diviser la mémoire en segments de
+taille fixe, et les processus accèdent à ces segments selon leurs besoins.
+E ■ ■ Non Le système d'exploitation utilise la "gestion par priorité" pour allouer la mémoire de
+manière statique et ne modifie pas la gestion des processus une fois démarrés.
+4/4

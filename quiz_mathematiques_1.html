@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Mathématiques 1 (Version Révisée)</title>
+    <link rel="stylesheet" href="quiz_style.css">
+</head>
+<body>
+
+    <h1>Quiz - Mathématiques 1 (Version Révisée)</h1>
+    <p>Ce quiz contient 30 questions pratiques vous demandant d'appliquer des formules et des raisonnements. Préparez une feuille de papier et une calculatrice.</p>
+    
+    <form id="quizForm">
+        
+        <h2>Questions Faciles</h2>
+
+        <!-- Question 1 -->
+        <div class="question-block" id="q1">
+            <p class="question-title">1. On lance deux dés équilibrés à 6 faces. Quelle est la probabilité que la somme des deux dés soit exactement 5 ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q1" value="a"> 1/12 (3/36)</label></div>
+                <div><label><input type="radio" name="q1" value="b"> 1/9 (4/36)</label></div>
+                <div><label><input type="radio" name="q1" value="c"> 5/36</label></div>
+                <div><label><input type="radio" name="q1" value="d"> 1/6 (6/36)</label></div>
+            </div>
+        </div>
+        
+        <!-- Question 2 -->
+        <div class="question-block" id="q2">
+            <p class="question-title">2. Pour la série de données [5, 10, 15, 10, 20], quelle est la médiane ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q2" value="a"> 12</label></div>
+                <div><label><input type="radio" name="q2" value="b"> 15</label></div>
+                <div><label><input type="radio" name="q2" value="c"> 10</label></div>
+                <div><label><input type="radio" name="q2" value="d"> 5</label></div>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-block" id="q3">
+            <p class="question-title">3. Une variable aléatoire X suit une loi binomiale avec les paramètres n=20 et p=0.4. Quelle est son espérance E(X) ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q3" value="a"> 8</label></div>
+                <div><label><input type="radio" name="q3" value="b"> 12</label></div>
+                <div><label><input type="radio" name="q3" value="c"> 4.8</label></div>
+                <div><label><input type="radio" name="q3" value="d"> 20</label></div>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question-block" id="q4">
+            <p class="question-title">4. Si le coefficient de corrélation entre la taille et le poids est de +0.85, cela signifie que :</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q4" value="a"> Il n'y a pas de lien entre la taille et le poids.</label></div>
+                <div><label><input type="radio" name="q4" value="b"> Quand la taille diminue, le poids a tendance à augmenter.</label></div>
+                <div><label><input type="radio" name="q4" value="c"> La taille est la cause du poids.</label></div>
+                <div><label><input type="radio" name="q4" value="d"> Quand la taille augmente, le poids a tendance à augmenter fortement.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question-block" id="q5">
+            <p class="question-title">5. Pour la série de données [2, 3, 5, 6, 9], quelle est l'étendue ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q5" value="a"> 5</label></div>
+                <div><label><input type="radio" name="q5" value="b"> 7</label></div>
+                <div><label><input type="radio" name="q5" value="c"> 9</label></div>
+                <div><label><input type="radio" name="q5" value="d"> 25</label></div>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question-block" id="q6">
+            <p class="question-title">6. On étudie la relation entre le nombre d'heures de révision (x) et la note (y). Le modèle de régression est y = 4x + 5. Si un étudiant révise 10 heures, quelle sera sa note prédite ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q6" value="a"> 19</label></div>
+                <div><label><input type="radio" name="q6" value="b"> 40</label></div>
+                <div><label><input type="radio" name="q6" value="c"> 45</label></div>
+                <div><label><input type="radio" name="q6" value="d"> 54</label></div>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question-block" id="q7">
+            <p class="question-title">7. Une p-value de 0.45 dans un test d'hypothèse (avec un seuil à 0.05) signifie que :</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q7" value="a"> On ne rejette pas l'hypothèse nulle, le résultat n'est pas statistiquement significatif.</label></div>
+                <div><label><input type="radio" name="q7" value="b"> On rejette l'hypothèse nulle, le résultat est très significatif.</label></div>
+                <div><label><input type="radio" name="q7" value="c"> L'hypothèse nulle est vraie à 45%.</label></div>
+                <div><label><input type="radio" name="q7" value="d"> Le test a échoué.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question-block" id="q8">
+            <p class="question-title">8. Dans un jeu à somme nulle, si le Joueur A gagne 10 points, que se passe-t-il pour le Joueur B ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q8" value="a"> Il gagne aussi 10 points.</label></div>
+                <div><label><input type="radio" name="q8" value="b"> Il perd 10 points.</label></div>
+                <div><label><input type="radio" name="q8" value="c"> Son score ne change pas.</label></div>
+                <div><label><input type="radio" name="q8" value="d"> On ne peut pas savoir.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question-block" id="q9">
+            <p class="question-title">9. Pour la série de données [10, 20, 30], quelle est la moyenne ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q9" value="a"> 15</label></div>
+                <div><label><input type="radio" name="q9" value="b"> 60</label></div>
+                <div><label><input type="radio" name="q9" value="c"> 20</label></div>
+                <div><label><input type="radio" name="q9" value="d"> 30</label></div>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question-block" id="q10">
+            <p class="question-title">10. On tire une carte d'un jeu de 52 cartes. Quelle est la probabilité de tirer un As ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q10" value="a"> 1/52</label></div>
+                <div><label><input type="radio" name="q10" value="b"> 4/48</label></div>
+                <div><label><input type="radio" name="q10" value="c"> 1/4</label></div>
+                <div><label><input type="radio" name="q10" value="d"> 1/13 (4/52)</label></div>
+            </div>
+        </div>
+        
+        <h2>Questions Moyennes</h2>
+
+        <!-- Question 11 -->
+        <div class="question-block" id="q11">
+            <p class="question-title">11. Pour la série de données [4, 6, 6, 8, 10, 12], calculez la variance.</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q11" value="a"> 7.33</label></div>
+                <div><label><input type="radio" name="q11" value="b"> 2.71</label></div>
+                <div><label><input type="radio" name="q11" value="c"> 8</label></div>
+                <div><label><input type="radio" name="q11" value="d"> 44</label></div>
+            </div>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="question-block" id="q12">
+            <p class="question-title">12. Une variable aléatoire X suit une loi binomiale B(10, 0.2). Quelle est la probabilité d'avoir exactement 3 succès (P(X=3)) ? (Rappel: \( P(X=k) = C(n,k) \times p^k \times (1-p)^{n-k} \))</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q12" value="a"> 0.302</label></div>
+                <div><label><input type="radio" name="q12" value="b"> 0.201</label></div>
+                <div><label><input type="radio" name="q12" value="c"> 0.057</label></div>
+                <div><label><input type="radio" name="q12" value="d"> 0.120</label></div>
+            </div>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question-block" id="q13">
+            <p class="question-title">13. Une usine produit des ampoules. La probabilité qu'une ampoule soit défectueuse est de 0.05. On prend un lot de 2 ampoules. Quelle est la probabilité qu'au moins une des deux soit défectueuse ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q13" value="a"> 0.05</label></div>
+                <div><label><input type="radio" name="q13" value="b"> 0.10</label></div>
+                <div><label><input type="radio" name="q13" value="c"> 0.0975</label></div>
+                <div><label><input type="radio" name="q13" value="d"> 0.0025</label></div>
+            </div>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question-block" id="q14">
+            <p class="question-title">14. Un échantillon de 64 étudiants a une note moyenne de 12 avec un écart-type de 2. Calculez l'intervalle de confiance à 95% pour la moyenne de la population (utilisez z=1.96).</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q14" value="a"> [11.02, 12.98]</label></div>
+                <div><label><input type="radio" name="q14" value="b"> [8.08, 15.92]</label></div>
+                <div><label><input type="radio" name="q14" value="c"> [11.75, 12.25]</label></div>
+                <div><label><input type="radio" name="q14" value="d"> [11.51, 12.49]</label></div>
+            </div>
+        </div>
+
+        <!-- Question 15 -->
+        <div class="question-block" id="q15">
+            <p class="question-title">15. Le nombre d'erreurs par page dans un livre suit une loi de Poisson avec une moyenne de 0.5 erreur par page. Quelle est la probabilité qu'une page choisie au hasard contienne exactement 0 erreur ? (Rappel: \( P(X=k) = \frac{e^{-\lambda} \lambda^k}{k!} \))</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q15" value="a"> 0.606</label></div>
+                <div><label><input type="radio" name="q15" value="b"> 0.303</label></div>
+                <div><label><input type="radio" name="q15" value="c"> 0.5</label></div>
+                <div><label><input type="radio" name="q15" value="d"> 1</label></div>
+            </div>
+        </div>
+
+        <!-- Question 16 -->
+        <div class="question-block" id="q16">
+            <p class="question-title">16. Pour la série de données [5, 8, 10, 15, 17, 25], calculez l'écart interquartile (IQR).</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q16" value="a"> 20</label></div>
+                <div><label><input type="radio" name="q16" value="b"> 12.5</label></div>
+                <div><label><input type="radio" name="q16" value="c"> 9</label></div>
+                <div><label><input type="radio" name="q16" value="d"> 17</label></div>
+            </div>
+        </div>
+
+        <!-- Question 17 -->
+        <div class="question-block" id="q17">
+            <p class="question-title">17. Deux entreprises choisissent entre faire de la "Pub" ou "Pas de pub". La matrice des gains (A, B) est : Pub/Pub -> (10,10), Pub/Pas -> (30,0), Pas/Pub -> (0,30), Pas/Pas -> (20,20). Quelle est la stratégie dominante pour l'entreprise A ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q17" value="a"> Pub</label></div>
+                <div><label><input type="radio" name="q17" value="b"> Pas de pub</label></div>
+                <div><label><input type="radio" name="q17" value="c"> Cela dépend de ce que fait B.</label></div>
+                <div><label><input type="radio" name="q17" value="d"> Il n'y a pas de stratégie dominante.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 18 -->
+        <div class="question-block" id="q18">
+            <p class="question-title">18. Un sac contient 4 boules rouges et 6 boules bleues. On tire 2 boules sans remise. Quelle est la probabilité de tirer deux boules rouges ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q18" value="a"> 16/100</label></div>
+                <div><label><input type="radio" name="q18" value="b"> 12/90</label></div>
+                <div><label><input type="radio" name="q18" value="c"> 12/100</label></div>
+                <div><label><input type="radio" name="q18" value="d"> 8/90</label></div>
+            </div>
+        </div>
+
+        <!-- Question 19 -->
+        <div class="question-block" id="q19">
+            <p class="question-title">19. Pour la série de données suivante, quelle est la moyenne ?<br>
+            Valeur: 10, 20, 30<br>
+            Effectif: 5, 3, 2</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q19" value="a"> 17</label></div>
+                <div><label><input type="radio" name="q19" value="b"> 20</label></div>
+                <div><label><input type="radio" name="q19" value="c"> 17.5</label></div>
+                <div><label><input type="radio" name="q19" value="d"> 60</label></div>
+            </div>
+        </div>
+
+        <!-- Question 20 -->
+        <div class="question-block" id="q20">
+            <p class="question-title">20. Une note à un examen est "normalisée" avec un Z-score. Si la moyenne de la classe est 12, l'écart-type est 3, et un étudiant a eu 18, quel est son Z-score ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q20" value="a"> 6</label></div>
+                <div><label><input type="radio" name="q20" value="b"> 3</label></div>
+                <div><label><input type="radio" name="q20" value="c"> 1.5</label></div>
+                <div><label><input type="radio" name="q20" value="d"> 2</label></div>
+            </div>
+        </div>
+
+        <h2>Questions Difficiles</h2>
+
+        <!-- Question 21 -->
+        <div class="question-block" id="q21">
+            <p class="question-title">21. Voici des données sur les heures d'étude (x) et la note (y) :<br>
+            x: [2, 3, 5, 6]<br>
+            y: [60, 65, 75, 80]<br>
+            Sachant que \( \sum x = 16, \sum y = 280, \sum x^2 = 74, \sum xy = 475 \), calculez le coefficient directeur (la pente) de la droite de régression des moindres carrés.</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q21" value="a"> 4.5</label></div>
+                <div><label><input type="radio" name="q21" value="b"> 5.5</label></div>
+                <div><label><input type="radio" name="q21" value="c"> 6.0</label></div>
+                <div><label><input type="radio" name="q21" value="d"> 70.0</label></div>
+            </div>
+        </div>
+
+        <!-- Question 22 -->
+        <div class="question-block" id="q22">
+            <p class="question-title">22. En utilisant les données et le résultat de la question précédente (pente = 5.5), calculez l'ordonnée à l'origine de la droite de régression.</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q22" value="a"> 5.5</label></div>
+                <div><label><input type="radio" name="q22" value="b"> 70.0</label></div>
+                <div><label><input type="radio" name="q22" value="c"> 48.0</label></div>
+                <div><label><input type="radio" name="q22" value="d"> 16.0</label></div>
+            </div>
+        </div>
+
+        <!-- Question 23 -->
+        <div class="question-block" id="q23">
+            <p class="question-title">23. Un club doit choisir entre un équipement A et B. La météo peut être "Soleil" (proba 0.6) ou "Pluie" (proba 0.4). La matrice des gains est :<br>
+            A/Soleil: 1000€, A/Pluie: 200€<br>
+            B/Soleil: 700€, B/Pluie: 800€<br>
+            Quel équipement faut-il choisir pour maximiser l'espérance de gain ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q23" value="a"> Équipement B (E[B]=740€ > E[A]=680€)</label></div>
+                <div><label><input type="radio" name="q23" value="b"> Équipement A (E[A]=680€ > E[B]=740€)</label></div>
+                <div><label><input type="radio" name="q23" value="c"> Les deux sont équivalents.</label></div>
+                <div><label><input type="radio" name="q23" value="d"> Il faut choisir A car son gain maximal est plus élevé.</label></div>
+            </div>
+        </div>
+        
+        <!-- Question 24 -->
+        <div class="question-block" id="q24">
+            <p class="question-title">24. Deux entreprises (1, 2) choisissent "Haut" ou "Bas". La matrice des gains est :<br>
+            H/H: (2,1), H/B: (0,0)<br>
+            B/H: (0,0), B/B: (1,2)<br>
+            Quels sont les équilibres de Nash en stratégies pures ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q24" value="a"> (Haut, Haut) seulement.</label></div>
+                <div><label><input type="radio" name="q24" value="b"> (Bas, Bas) seulement.</label></div>
+                <div><label><input type="radio" name="q24" value="c"> Il n'y en a pas.</label></div>
+                <div><label><input type="radio" name="q24" value="d"> (Haut, Haut) et (Bas, Bas).</label></div>
+            </div>
+        </div>
+
+        <!-- Question 25 -->
+        <div class="question-block" id="q25">
+            <p class="question-title">25. On lance 3 pièces de monnaie. Sachant qu'au moins une pièce est tombée sur "Face", quelle est la probabilité que les trois pièces soient tombées sur "Face" ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q25" value="a"> 1/8</label></div>
+                <div><label><input type="radio" name="q25" value="b"> 1/7</label></div>
+                <div><label><input type="radio" name="q25" value="c"> 1/4</label></div>
+                <div><label><input type="radio" name="q25" value="d"> 1/3</label></div>
+            </div>
+        </div>
+
+        <!-- Question 26 -->
+        <div class="question-block" id="q26">
+            <p class="question-title">26. Un test médical pour une maladie rare (1% de la population) a une fiabilité de 99% (si vous êtes malade, il est positif à 99%; si vous êtes sain, il est négatif à 99%). Vous êtes testé positif. Quelle est la probabilité que vous soyez réellement malade ? (Utilisez le théorème de Bayes)</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q26" value="a"> 99%</label></div>
+                <div><label><input type="radio" name="q26" value="b"> 90%</label></div>
+                <div><label><input type="radio" name="q26" value="c"> 50%</label></div>
+                <div><label><input type="radio" name="q26" value="d"> 1%</label></div>
+            </div>
+        </div>
+
+        <!-- Question 27 -->
+        <div class="question-block" id="q27">
+            <p class="question-title">27. Une distribution de données a une moyenne de 50 et un écart-type de 10. D'après l'inégalité de Tchebychev, quel est le pourcentage minimum de données qui se trouvent dans l'intervalle [30, 70] ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q27" value="a"> Au moins 75%</label></div>
+                <div><label><input type="radio" name="q27" value="b"> Au moins 95%</label></div>
+                <div><label><input type="radio" name="q27" value="c"> 100%</label></div>
+                <div><label><input type="radio" name="q27" value="d"> Au moins 50%</label></div>
+            </div>
+        </div>
+
+        <!-- Question 28 -->
+        <div class="question-block" id="q28">
+            <p class="question-title">28. Vous avez deux séries de données X et Y. Cov(X, Y) = 50, Var(X) = 25, Var(Y) = 100. Calculez le coefficient de corrélation de Pearson (r).</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q28" value="a"> 0.25</label></div>
+                <div><label><input type="radio" name="q28" value="b"> 0.5</label></div>
+                <div><label><input type="radio" name="q28" value="c"> 2</label></div>
+                <div><label><input type="radio" name="q28" value="d"> 1</label></div>
+            </div>
+        </div>
+
+        <!-- Question 29 -->
+        <div class="question-block" id="q29">
+            <p class="question-title">29. On vous donne 5 points à relier. Combien d'arêtes y aurait-il dans un graphe complet (où chaque sommet est relié à tous les autres) ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q29" value="a"> 5</label></div>
+                <div><label><input type="radio" name="q29" value="b"> 20</label></div>
+                <div><label><input type="radio" name="q29" value="c"> 10</label></div>
+                <div><label><input type="radio" name="q29" value="d"> 25</label></div>
+            </div>
+        </div>
+
+        <!-- Question 30 -->
+        <div class="question-block" id="q30">
+            <p class="question-title">30. Dans le jeu du "dilemme du prisonnier" répété un nombre infini de fois, quelle stratégie peut devenir un équilibre de Nash, contrairement au jeu unique ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q30" value="a"> Toujours trahir.</label></div>
+                <div><label><input type="radio" name="q30" value="b"> La stratégie "Tit-for-Tat" (donnant-donnant) où l'on coopère au premier tour, puis on copie le coup précédent de l'adversaire.</label></div>
+                <div><label><input type="radio" name="q30" value="c"> Toujours coopérer.</label></div>
+                <div><label><input type="radio" name="q30" value="d"> Jouer aléatoirement.</label></div>
+            </div>
+        </div>
+
+    </form>
+    
+    <button type="button" onclick="corrigerQuiz()">Corriger</button>
+    <div id="resultat"></div>
+
+    <script>
+        function corrigerQuiz() {
+            const form = document.getElementById('quizForm');
+            const questions = form.querySelectorAll('.question-block');
+            let score = 0;
+            const totalQuestions = questions.length;
+
+            questions.forEach(question => {
+                const answersDiv = question.querySelector('.answers');
+                const type = answersDiv.dataset.type;
+                const correctAnswers = JSON.parse(answersDiv.dataset.correct);
+                const inputs = question.querySelectorAll('input');
+                let isQuestionCorrect = false;
+
+                if (type === 'radio') {
+                    const checkedInput = question.querySelector('input:checked');
+                    if (checkedInput && correctAnswers.includes(checkedInput.value)) {
+                        isQuestionCorrect = true;
+                    }
+                } else if (type === 'checkbox') {
+                    const checkedValues = Array.from(question.querySelectorAll('input:checked')).map(i => i.value);
+                    const sortedChecked = [...checkedValues].sort();
+                    const sortedCorrect = [...correctAnswers].sort();
+                    if (JSON.stringify(sortedChecked) === JSON.stringify(sortedCorrect)) {
+                        isQuestionCorrect = true;
+                    }
+                }
+
+                if (isQuestionCorrect) {
+                    score++;
+                }
+
+                // Apply styling to all options
+                inputs.forEach(input => {
+                    const answerDiv = input.closest('.answers > div');
+                    answerDiv.className = ''; // Reset classes
+
+                    const isCorrectChoice = correctAnswers.includes(input.value);
+
+                    if (input.checked) {
+                        if (isCorrectChoice) {
+                            answerDiv.classList.add('correct');
+                        } else {
+                            answerDiv.classList.add('incorrect');
+                        }
+                    } else {
+                        if (isCorrectChoice) {
+                            answerDiv.classList.add('missed-correct');
+                        }
+                    }
+                });
+            });
+
+            const resultatDiv = document.getElementById('resultat');
+            resultatDiv.innerHTML = `Votre score est de ${score} / ${totalQuestions}`;
+            window.scrollTo(0, 0);
+        }
+    </script>
+
+</body>
+</html>

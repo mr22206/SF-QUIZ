@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Sciences du Numérique 1 (Version Révisée)</title>
+    <link rel="stylesheet" href="quiz_style.css">
+</head>
+<body>
+
+    <h1>Quiz - Sciences du Numérique 1 (Version Révisée)</h1>
+    <p>Ce quiz contient 30 questions pratiques inspirées des CCTL. Préparez une feuille de papier pour vos raisonnements.</p>
+    
+    <form id="quizForm">
+        
+        <h2>Questions Faciles</h2>
+
+        <!-- Question 1 -->
+        <div class="question-block" id="q1">
+            <p class="question-title">1. Un ordinateur portable consomme 50W. Si vous l'utilisez 8 heures par jour pendant 200 jours, quelle est sa consommation annuelle en kWh ? (1 kWh = 1000 Wh)</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q1" value="a"> 800 kWh</label></div>
+                <div><label><input type="radio" name="q1" value="b"> 80 kWh</label></div>
+                <div><label><input type="radio" name="q1" value="c"> 8 kWh</label></div>
+                <div><label><input type="radio" name="q1" value="d"> 8000 kWh</label></div>
+            </div>
+        </div>
+        
+        <!-- Question 2 -->
+        <div class="question-block" id="q2">
+            <p class="question-title">2. Quelle est la complexité temporelle (Big O) d'un algorithme qui recherche un élément dans un tableau trié en utilisant la recherche dichotomique ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q2" value="a"> O(n)</label></div>
+                <div><label><input type="radio" name="q2" value="b"> O(log n)</label></div>
+                <div><label><input type="radio" name="q2" value="c"> O(n²)</label></div>
+                <div><label><input type="radio" name="q2" value="d"> O(1)</label></div>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-block" id="q3">
+            <p class="question-title">3. Un graphe non orienté a 4 sommets. Le degré de ses sommets est 2, 3, 1, 2. Combien d'arêtes ce graphe possède-t-il ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q3" value="a"> 8</label></div>
+                <div><label><input type="radio" name="q3" value="b"> 5</label></div>
+                <div><label><input type="radio" name="q3" value="c"> 4</label></div>
+                <div><label><input type="radio" name="q3" value="d"> On ne peut pas savoir.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question-block" id="q4">
+            <p class="question-title">4. Dans un système de cryptographie asymétrique, Alice veut envoyer un message chiffré à Bob. Quelle clé Alice doit-elle utiliser pour chiffrer le message ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q4" value="a"> La clé publique de Bob.</label></div>
+                <div><label><input type="radio" name="q4" value="b"> La clé privée d'Alice.</label></div>
+                <div><label><input type="radio" name="q4" value="c"> La clé publique d'Alice.</label></div>
+                <div><label><input type="radio" name="q4" value="d"> La clé privée de Bob.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question-block" id="q5">
+            <p class="question-title">5. Un processus P1 de 10 ms arrive, suivi d'un processus P2 de 4 ms. Avec un ordonnanceur FIFO, quel est le temps de séjour moyen de ces deux processus ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q5" value="a"> 10 ms</label></div>
+                <div><label><input type="radio" name="q5" value="b"> 14 ms</label></div>
+                <div><label><input type="radio" name="q5" value="c"> 12 ms</label></div>
+                <div><label><input type="radio" name="q5" value="d"> 7 ms</label></div>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question-block" id="q6">
+            <p class="question-title">6. Une table de hachage utilise la fonction h(k) = k mod 10. Où l'élément de clé 47 sera-t-il inséré ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q6" value="a"> Index 4</label></div>
+                <div><label><input type="radio" name="q6" value="b"> Index 10</label></div>
+                <div><label><input type="radio" name="q6" value="c"> Index 3</label></div>
+                <div><label><input type="radio" name="q6" value="d"> Index 7</label></div>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question-block" id="q7">
+            <p class="question-title">7. Quel principe du Green IT vise à réduire la consommation de ressources en mutualisant les serveurs ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q7" value="a"> L'informatique pervasive</label></div>
+                <div><label><input type="radio" name="q7" value="b"> La virtualisation</label></div>
+                <div><label><input type="radio" name="q7" value="c"> Le edge computing</label></div>
+                <div><label><input type="radio" name="q7" value="d"> L'obsolescence programmée</label></div>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question-block" id="q8">
+            <p class="question-title">8. Alice veut signer numériquement un document. Quelle clé doit-elle utiliser pour créer la signature ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q8" value="a"> Sa clé publique.</label></div>
+                <div><label><input type="radio" name="q8" value="b"> Sa clé privée.</label></div>
+                <div><label><input type="radio" name="q8" value="c"> La clé publique du destinataire.</label></div>
+                <div><label><input type="radio" name="q8" value="d"> Une clé symétrique partagée.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question-block" id="q9">
+            <p class="question-title">9. Un algorithme effectue 3n² + 5n + 10 opérations. Quelle est sa complexité Big O ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q9" value="a"> O(n)</label></div>
+                <div><label><input type="radio" name="q9" value="b"> O(n log n)</label></div>
+                <div><label><input type="radio" name="q9" value="c"> O(n²)</label></div>
+                <div><label><input type="radio" name="q9" value="d"> O(1)</label></div>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question-block" id="q10">
+            <p class="question-title">10. En gestion de mémoire, comment s'appelle le phénomène où l'espace mémoire disponible est divisé en de nombreux petits blocs non contigus ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q10" value="a"> La fragmentation externe</label></div>
+                <div><label><input type="radio" name="q10" value="b"> La fragmentation interne</label></div>
+                <div><label><input type="radio" name="q10" value="c"> Une fuite de mémoire</label></div>
+                <div><label><input type="radio" name="q10" value="d"> Un défaut de page</label></div>
+            </div>
+        </div>
+        
+        <h2>Questions Moyennes</h2>
+
+        <!-- Question 11 -->
+        <div class="question-block" id="q11">
+            <p class="question-title">11. On a une liste de processus [P1(24ms), P2(3ms), P3(3ms)] qui arrivent en même temps. Avec l'ordonnancement Round Robin (quantum=4ms), quel processus se termine en dernier ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q11" value="a"> P1</label></div>
+                <div><label><input type="radio" name="q11" value="b"> P2</label></div>
+                <div><label><input type="radio" name="q11" value="c"> P3</label></div>
+                <div><label><input type="radio" name="q11" value="d"> P2 et P3 en même temps.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="question-block" id="q12">
+            <p class="question-title">12. Pour chiffrer le mot "CESI" avec le chiffrement de César et un décalage de 3, quel est le résultat ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q12" value="a"> FGUJ</label></div>
+                <div><label><input type="radio" name="q12" value="b"> CEPH</label></div>
+                <div><label><input type="radio" name="q12" value="c"> ZBPH</label></div>
+                <div><label><input type="radio" name="q12" value="d"> FHVL</label></div>
+            </div>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question-block" id="q13">
+            <p class="question-title">13. Voici une matrice d'adjacence d'un graphe orienté :<br>
+            [[0, 1, 0], [0, 0, 1], [1, 0, 0]]<br>
+            Qu'est-ce que cela représente ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q13" value="a"> Une ligne de 3 sommets.</label></div>
+                <div><label><input type="radio" name="q13" value="b"> Un cycle de 3 sommets (0->1, 1->2, 2->0).</label></div>
+                <div><label><input type="radio" name="q13" value="c"> Un graphe où tout est connecté à tout.</label></div>
+                <div><label><input type="radio" name="q13" value="d"> Un graphe avec un sommet isolé.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question-block" id="q14">
+            <p class="question-title">14. On considère le code Python suivant :<br>
+            `import pandas as pd`<br>
+            `data = {'ville': ['Paris', 'Lyon', 'Paris'], 'temp': [12, 15, 14]}`<br>
+            `df = pd.DataFrame(data)`<br>
+            `result = df.groupby('ville')['temp'].mean()`<br>
+            Que contient `result` ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q14" value="a"> Une moyenne de 13.66 pour toutes les villes.</label></div>
+                <div><label><input type="radio" name="q14" value="b"> Un DataFrame avec les températures de Paris.</label></div>
+                <div><label><input type="radio" name="q14" value="c"> Une Series avec la température moyenne pour chaque ville (Paris: 13, Lyon: 15).</label></div>
+                <div><label><input type="radio" name="q14" value="d"> Le code génère une erreur.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 15 -->
+        <div class="question-block" id="q15">
+            <p class="question-title">15. Quel est le PGCD de 198 et 126, calculé avec l'algorithme d'Euclide ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q15" value="a"> 18</label></div>
+                <div><label><input type="radio" name="q15" value="b"> 6</label></div>
+                <div><label><input type="radio" name="q15" value="c"> 9</label></div>
+                <div><label><input type="radio" name="q15" value="d"> 2</label></div>
+            </div>
+        </div>
+
+        <!-- Question 16 -->
+        <div class="question-block" id="q16">
+            <p class="question-title">16. Un thread T1 lit une variable X=10. Il est interrompu. Un thread T2 lit X=10, le met à 11 et l'écrit. T1 reprend, met sa valeur locale (10) à 11 et l'écrit. Quelle est la valeur finale de X et comment s'appelle ce problème ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q16" value="a"> 12, Interblocage (Deadlock)</label></div>
+                <div><label><input type="radio" name="q16" value="b"> 11, Starvation</label></div>
+                <div><label><input type="radio" name="q16" value="c"> 12, Race Condition</label></div>
+                <div><label><input type="radio" name="q16" value="d"> 11, Race Condition</label></div>
+            </div>
+        </div>
+
+        <!-- Question 17 -->
+        <div class="question-block" id="q17">
+            <p class="question-title">17. En utilisant le Petit Théorème de Fermat, calculez 3^10 mod 11.</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q17" value="a"> 1</label></div>
+                <div><label><input type="radio" name="q17" value="b"> 3</label></div>
+                <div><label><input type="radio" name="q17" value="c"> 9</label></div>
+                <div><label><input type="radio" name="q17" value="d"> 10</label></div>
+            </div>
+        </div>
+
+        <!-- Question 18 -->
+        <div class="question-block" id="q18">
+            <p class="question-title">18. Un système d'exploitation utilise des pages de 4 Ko. Un processus de 10 Ko est chargé en mémoire. Quelle est la taille de la fragmentation interne ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q18" value="a"> 0 Ko</label></div>
+                <div><label><input type="radio" name="q18" value="b"> 4 Ko</label></div>
+                <div><label><input type="radio" name="q18" value="c"> 2 Ko</label></div>
+                <div><label><input type="radio" name="q18" value="d"> 6 Ko</label></div>
+            </div>
+        </div>
+
+        <!-- Question 19 -->
+        <div class="question-block" id="q19">
+            <p class="question-title">19. Pour insérer les clés 10, 22, 12, 32 dans une table de hachage de taille 10 (h(k)=k mod 10) avec sondage linéaire, où se trouve la clé 32 ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q19" value="a"> Index 2</label></div>
+                <div><label><input type="radio" name="q19" value="b"> Index 3</label></div>
+                <div><label><input type="radio" name="q19" value="c"> Index 4</label></div>
+                <div><label><input type="radio" name="q19" value="d"> La table est pleine.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 20 -->
+        <div class="question-block" id="q20">
+            <p class="question-title">20. On considère deux algorithmes. A1 a une complexité de O(n²), A2 a une complexité de O(2^n). Pour de grandes valeurs de n, lequel est le plus efficace ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q20" value="a"> A1</label></div>
+                <div><label><input type="radio" name="q20" value="b"> A2</label></div>
+                <div><label><input type="radio" name="q20" value="c"> Ils sont équivalents.</label></div>
+                <div><label><input type="radio" name="q20" value="d"> Ça dépend de la machine.</label></div>
+            </div>
+        </div>
+
+        <h2>Questions Difficiles</h2>
+
+        <!-- Question 21 -->
+        <div class="question-block" id="q21">
+            <p class="question-title">21. Vous avez une liste de processus [P1(6ms, arr 0), P2(8ms, arr 1), P3(7ms, arr 2), P4(3ms, arr 3)]. Avec l'ordonnancement "Shortest Job First" (SJF) préemptif (SRTF), quel processus s'exécute à t=8ms ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q21" value="a"> P1</label></div>
+                <div><label><input type="radio" name="q21" value="b"> P2</label></div>
+                <div><label><input type="radio" name="q21" value="c"> P3</label></div>
+                <div><label><input type="radio" name="q21" value="d"> P4</label></div>
+            </div>
+        </div>
+
+        <!-- Question 22 -->
+        <div class="question-block" id="q22">
+            <p class="question-title">22. Le problème du "Voyageur de Commerce" qui consiste à trouver le plus court chemin passant par un ensemble de villes est un exemple classique de problème :</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q22" value="a"> De classe P</label></div>
+                <div><label><input type="radio" name="q22" value="b"> NP-complet</label></div>
+                <div><label><input type="radio" name="q22" value="c"> De complexité logarithmique</label></div>
+                <div><label><input type="radio" name="q22" value="d"> Résoluble par un algorithme glouton optimal.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 23 -->
+        <div class="question-block" id="q23">
+            <p class="question-title">23. On a 5 tâches à colorier dans un graphe d'interférences. T1 est incompatible avec T2 et T3. T2 avec T1, T3, T4. T3 avec T1, T2, T5. T4 avec T2, T5. T5 avec T3, T4. En utilisant un algorithme glouton de coloration (ordre T1..T5, couleurs C1..CN), de combien de couleurs (ressources) a-t-on besoin au minimum ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q23" value="a"> 2</label></div>
+                <div><label><input type="radio" name="q23" value="b"> 3</label></div>
+                <div><label><input type="radio" name="q23" value="c"> 4</label></div>
+                <div><label><input type="radio" name="q23" value="d"> 5</label></div>
+            </div>
+        </div>
+        
+        <!-- Question 24 -->
+        <div class="question-block" id="q24">
+            <p class="question-title">24. Dans un système de fichiers, un i-node contient 12 pointeurs directs, 1 pointeur simple indirect. Chaque pointeur fait 4 octets et chaque bloc fait 4 Ko. Quelle est la taille maximale d'un fichier ? (1 Ko = 1024 octets)</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q24" value="a"> 48 Ko</label></div>
+                <div><label><input type="radio" name="q24" value="b"> 4 Mo</label></div>
+                <div><label><input type="radio" name="q24" value="c"> 4 Mo + 48 Ko</label></div>
+                <div><label><input type="radio" name="q24" value="d"> 4096 Ko</label></div>
+            </div>
+        </div>
+
+        <!-- Question 25 -->
+        <div class="question-block" id="q25">
+            <p class="question-title">25. Un "interblocage" (deadlock) se produit lorsque 4 conditions sont réunies. Laquelle de ces conditions stipule qu'un processus ne peut pas prendre une ressource déjà détenue par un autre ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q25" value="a"> Exclusion mutuelle</label></div>
+                <div><label><input type="radio" name="q25" value="b"> Attente et détention (Hold and wait)</label></div>
+                <div><label><input type="radio" name="q25" value="c"> Pas de préemption</label></div>
+                <div><label><input type="radio" name="q25" value="d"> Attente circulaire</label></div>
+            </div>
+        </div>
+
+        <!-- Question 26 -->
+        <div class="question-block" id="q26">
+            <p class="question-title">26. En cryptographie, pourquoi ajoute-t-on un "sel" (salt) aléatoire au mot de passe avant de le hacher ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q26" value="a"> Pour rendre le hachage plus rapide.</label></div>
+                <div><label><input type="radio" name="q26" value="b"> Pour chiffrer le mot de passe.</label></div>
+                <div><label><input type="radio" name="q26" value="c"> Pour que le même mot de passe ait toujours le même hash.</label></div>
+                <div><label><input type="radio" name="q26" value="d"> Pour empêcher les attaques par tables arc-en-ciel (rainbow tables).</label></div>
+            </div>
+        </div>
+
+        <!-- Question 27 -->
+        <div class="question-block" id="q27">
+            <p class="question-title">27. Vous analysez la complexité d'une fonction récursive définie par T(n) = 2T(n/2) + O(n). Selon le "Master Theorem", quelle est sa complexité ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q27" value="a"> O(n)</label></div>
+                <div><label><input type="radio" name="q27" value="b"> O(n log n)</label></div>
+                <div><label><input type="radio" name="q27" value="c"> O(n²)</label></div>
+                <div><label><input type="radio" name="q27" value="d"> O(2^n)</label></div>
+            </div>
+        </div>
+
+        <!-- Question 28 -->
+        <div class="question-block" id="q28">
+            <p class="question-title">28. Une entreprise a un PUE (Power Usage Effectiveness) de 1.5. Son datacenter consomme au total 300 kW. Quelle est la puissance consommée uniquement par les équipements informatiques (serveurs, etc.) ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q28" value="a"> 150 kW</label></div>
+                <div><label><input type="radio" name="q28" value="b"> 450 kW</label></div>
+                <div><label><input type="radio" name="q28" value="c"> 200 kW</label></div>
+                <div><label><input type="radio" name="q28" value="d"> 100 kW</label></div>
+            </div>
+        </div>
+
+        <!-- Question 29 -->
+        <div class="question-block" id="q29">
+            <p class="question-title">29. Quel est le parcours d'un graphe qui explore aussi profondément que possible chaque branche avant de revenir en arrière ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q29" value="a"> Parcours en largeur (BFS)</label></div>
+                <div><label><input type="radio" name="q29" value="b"> Parcours en profondeur (DFS)</label></div>
+                <div><label><input type="radio" name="q29" value="c"> Algorithme de Dijkstra</label></div>
+                <div><label><input type="radio" name="q29" value="d"> Algorithme de Kruskal</label></div>
+            </div>
+        </div>
+
+        <!-- Question 30 -->
+        <div class="question-block" id="q30">
+            <p class="question-title">30. La signature numérique garantit trois propriétés. Laquelle de ces propositions n'en fait PAS partie ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q30" value="a"> Intégrité</label></div>
+                <div><label><input type="radio" name="q30" value="b"> Authentification de l'origine</label></div>
+                <div><label><input type="radio" name="q30" value="c"> Confidentialité du message</label></div>
+                <div><label><input type="radio" name="q30" value="d"> Non-répudiation</label></div>
+            </div>
+        </div>
+
+    </form>
+    
+    <button type="button" onclick="corrigerQuiz()">Corriger</button>
+    <div id="resultat"></div>
+
+    <script>
+        function corrigerQuiz() {
+            const form = document.getElementById('quizForm');
+            const questions = form.querySelectorAll('.question-block');
+            let score = 0;
+            const totalQuestions = questions.length;
+
+            questions.forEach(question => {
+                const answersDiv = question.querySelector('.answers');
+                const type = answersDiv.dataset.type;
+                const correctAnswers = JSON.parse(answersDiv.dataset.correct);
+                const inputs = question.querySelectorAll('input');
+                let isQuestionCorrect = false;
+
+                if (type === 'radio') {
+                    const checkedInput = question.querySelector('input:checked');
+                    if (checkedInput && correctAnswers.includes(checkedInput.value)) {
+                        isQuestionCorrect = true;
+                    }
+                } else if (type === 'checkbox') {
+                    const checkedValues = Array.from(question.querySelectorAll('input:checked')).map(i => i.value);
+                    const sortedChecked = [...checkedValues].sort();
+                    const sortedCorrect = [...correctAnswers].sort();
+                    if (JSON.stringify(sortedChecked) === JSON.stringify(sortedCorrect)) {
+                        isQuestionCorrect = true;
+                    }
+                }
+
+                if (isQuestionCorrect) {
+                    score++;
+                }
+
+                // Apply styling to all options
+                inputs.forEach(input => {
+                    const answerDiv = input.closest('.answers > div');
+                    answerDiv.className = ''; // Reset classes
+
+                    const isCorrectChoice = correctAnswers.includes(input.value);
+
+                    if (input.checked) {
+                        if (isCorrectChoice) {
+                            answerDiv.classList.add('correct');
+                        } else {
+                            answerDiv.classList.add('incorrect');
+                        }
+                    } else {
+                        if (isCorrectChoice) {
+                            answerDiv.classList.add('missed-correct');
+                        }
+                    }
+                });
+            });
+
+            const resultatDiv = document.getElementById('resultat');
+            resultatDiv.innerHTML = `Votre score est de ${score} / ${totalQuestions}`;
+            window.scrollTo(0, 0);
+        }
+    </script>
+
+</body>
+</html>

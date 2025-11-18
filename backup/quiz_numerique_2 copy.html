@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Sciences du Numérique 2</title>
+    <link rel="stylesheet" href="quiz_style.css">
+</head>
+<body>
+
+    <h1>Quiz - Sciences du Numérique 2</h1>
+    <p>Ce quiz contient 30 questions. Cochez les réponses qui vous semblent correctes, puis cliquez sur le bouton "Corriger" en bas de la page pour voir vos résultats.</p>
+    
+    <form id="quizForm">
+        
+        <h2>Questions Faciles</h2>
+
+        <!-- Question 1 -->
+        <div class="question-block" id="q1">
+            <p class="question-title">1. Quelle est la principale différence entre un processus et un thread (fil d'exécution) ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q1" value="a"> Il n'y a aucune différence, ce sont des synonymes.</label></div>
+                <div><label><input type="radio" name="q1" value="b"> Les threads d'un même processus partagent le même espace mémoire, tandis que les processus ont des espaces mémoire séparés.</label></div>
+                <div><label><input type="radio" name="q1" value="c"> Un processus est plus léger et rapide qu'un thread.</label></div>
+                <div><label><input type="radio" name="q1" value="d"> Les threads ne peuvent pas s'exécuter en parallèle, contrairement aux processus.</label></div>
+            </div>
+        </div>
+        
+        <!-- Question 2 -->
+        <div class="question-block" id="q2">
+            <p class="question-title">2. Quelle structure de données suit le principe "Premier entré, premier sorti" (FIFO) ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q2" value="a"> La Pile (Stack)</label></div>
+                <div><label><input type="radio" name="q2" value="b"> Le Graphe</label></div>
+                <div><label><input type="radio" name="q2" value="c"> La File (Queue)</label></div>
+                <div><label><input type="radio" name="q2" value="d"> L'Arbre</label></div>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-block" id="q3">
+            <p class="question-title">3. En cryptographie, que signifie le terme "symétrique" ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q3" value="a"> La même clé est utilisée pour chiffrer et déchiffrer le message.</label></div>
+                <div><label><input type="radio" name="q3" value="b"> Deux clés différentes mais mathématiquement liées sont utilisées.</label></div>
+                <div><label><input type="radio" name="q3" value="c"> Le message chiffré a la même longueur que le message original.</label></div>
+                <div><label><input type="radio" name="q3" value="d"> L'algorithme est réversible.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question-block" id="q4">
+            <p class="question-title">4. Quelle est la complexité temporelle d'une recherche linéaire dans un tableau non trié de taille n ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q4" value="a"> O(1)</label></div>
+                <div><label><input type="radio" name="q4" value="b"> O(log n)</label></div>
+                <div><label><input type="radio" name="q4" value="c"> O(n)</label></div>
+                <div><label><input type="radio" name="q4" value="d"> O(n²)</label></div>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question-block" id="q5">
+            <p class="question-title">5. Quel module Python est spécifiquement conçu pour l'analyse de données tabulaires (comme des feuilles de calcul) ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q5" value="a"> Matplotlib</label></div>
+                <div><label><input type="radio" name="q5" value="b"> NumPy</label></div>
+                <div><label><input type="radio" name="q5" value="c"> Scikit-learn</label></div>
+                <div><label><input type="radio" name="q5" value="d"> Pandas</label></div>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question-block" id="q6">
+            <p class="question-title">6. Qu'est-ce qu'un "nombre premier de Mersenne" ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q6" value="a"> Un nombre premier de la forme 2^p - 1, où p est aussi un nombre premier.</label></div>
+                <div><label><input type="radio" name="q6" value="b"> Un nombre premier qui peut s'écrire comme la somme de deux carrés.</label></div>
+                <div><label><input type="radio" name="q6" value="c"> Un nombre premier utilisé exclusivement dans l'algorithme RSA.</label></div>
+                <div><label><input type="radio" name="q6" value="d"> Un nombre qui n'est divisible que par 1 et lui-même.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question-block" id="q7">
+            <p class="question-title">7. Quel outil sous Windows permet de visualiser les processus en cours d'exécution et leur consommation de ressources ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q7" value="a"> L'explorateur de fichiers</label></div>
+                <div><label><input type="radio" name="q7" value="b"> Le gestionnaire des tâches</label></div>
+                <div><label><input type="radio" name="q7" value="c"> Le panneau de configuration</label></div>
+                <div><label><input type="radio" name="q7" value="d"> L'invite de commandes</label></div>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question-block" id="q8">
+            <p class="question-title">8. Le "petit théorème de Fermat" est un concept fondamental dans quel domaine ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q8" value="a"> La théorie des graphes</label></div>
+                <div><label><input type="radio" name="q8" value="b"> L'optimisation algorithmique</label></div>
+                <div><label><input type="radio" name="q8" value="c"> La théorie des nombres et la cryptographie</label></div>
+                <div><label><input type="radio" name="q8" value="d"> Les systèmes d'exploitation</label></div>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question-block" id="q9">
+            <p class="question-title">9. Dans un graphe, qu'est-ce que le "degré" d'un sommet ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q9" value="a"> Le poids du sommet</label></div>
+                <div><label><input type="radio" name="q9" value="b"> Le nombre de sommets dans le graphe</label></div>
+                <div><label><input type="radio" name="q9" value="c"> La distance la plus courte à un autre sommet</label></div>
+                <div><label><input type="radio" name="q9" value="d"> Le nombre d'arêtes incidentes à ce sommet</label></div>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question-block" id="q10">
+            <p class="question-title">10. Quelle est la fonction de la bibliothèque Pandas pour lire un fichier CSV ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q10" value="a"> pd.read_csv()</label></div>
+                <div><label><input type="radio" name="q10" value="b"> pd.open_csv()</label></div>
+                <div><label><input type="radio" name="q10" value="c"> pd.load_csv()</label></div>
+                <div><label><input type="radio" name="q10" value="d"> pd.get_csv()</label></div>
+            </div>
+        </div>
+        
+        <h2>Questions Moyennes</h2>
+
+        <!-- Question 11 -->
+        <div class="question-block" id="q11">
+            <p class="question-title">11. Quelle est la complexité temporelle d'une recherche dichotomique (binary search) dans un tableau trié de taille n ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q11" value="a"> O(n)</label></div>
+                <div><label><input type="radio" name="q11" value="b"> O(log n)</label></div>
+                <div><label><input type="radio" name="q11" value="c"> O(n²)</label></div>
+                <div><label><input type="radio" name="q11" value="d"> O(1)</label></div>
+            </div>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="question-block" id="q12">
+            <p class="question-title">12. Vous devez modéliser les connexions routières entre des villes (bidirectionnelles). Quelle est la meilleure représentation de graphe si vous voulez surtout lister rapidement les voisins d'une ville donnée ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q12" value="a"> Une matrice d'adjacence</label></div>
+                <div><label><input type="radio" name="q12" value="b"> Une liste d'adjacence</label></div>
+                <div><label><input type="radio" name="q12" value="c"> Une liste de toutes les routes</label></div>
+                <div><label><input type="radio" name="q12" value="d"> Une matrice d'incidence</label></div>
+            </div>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question-block" id="q13">
+            <p class="question-title">13. Quel est l'objectif de la méthode de "salage" (salting) des mots de passe avant de les hacher ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q13" value="a"> Rendre le hachage plus rapide.</label></div>
+                <div><label><input type="radio" name="q13" value="b"> Rendre le mot de passe plus facile à retenir.</label></div>
+                <div><label><input type="radio" name="q13" value="c"> Empêcher les attaques par tables arc-en-ciel (rainbow tables) en s'assurant que deux mots de passe identiques aient des hachages différents.</label></div>
+                <div><label><input type="radio" name="q13" value="d"> Chiffrer le mot de passe de manière réversible.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question-block" id="q14">
+            <p class="question-title">14. En Python, si `df` est un DataFrame Pandas, quelle commande permet de sélectionner toutes les lignes où la valeur de la colonne 'age' est supérieure à 30 ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q14" value="a"> df.select('age' > 30)</label></div>
+                <div><label><input type="radio" name="q14" value="b"> df['age' > 30]</label></div>
+                <div><label><input type="radio" name="q14" value="c"> df.where(df['age'] > 30)</label></div>
+                <div><label><input type="radio" name="q14" value="d"> df[df['age'] > 30]</label></div>
+            </div>
+        </div>
+
+        <!-- Question 15 -->
+        <div class="question-block" id="q15">
+            <p class="question-title">15. Quel est le principal inconvénient de l'algorithme d'ordonnancement "Premier arrivé, premier servi" (FIFO) ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q15" value="a"> L'effet de convoi, où un long processus peut bloquer tous les processus plus courts arrivés après lui.</label></div>
+                <div><label><input type="radio" name="q15" value="b"> Il est très complexe à implémenter.</label></div>
+                <div><label><input type="radio" name="q15" value="c"> Il peut mener à la famine (starvation) de certains processus.</label></div>
+                <div><label><input type="radio" name="q15" value="d"> Il nécessite de connaître la durée d'exécution de tous les processus à l'avance.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 16 -->
+        <div class="question-block" id="q16">
+            <p class="question-title">16. Dans un DataFrame Pandas, comment calculer l'écart-type de la colonne 'ventes' ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q16" value="a"> df['ventes'].stdev()</label></div>
+                <div><label><input type="radio" name="q16" value="b"> df['ventes'].deviation()</label></div>
+                <div><label><input type="radio" name="q16" value="c"> df['ventes'].std()</label></div>
+                <div><label><input type="radio" name="q16" value="d"> df['ventes'].sd()</label></div>
+            </div>
+        </div>
+
+        <!-- Question 17 -->
+        <div class="question-block" id="q17">
+            <p class="question-title">17. Quelle est la différence entre la fragmentation interne et externe de la mémoire ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q17" value="a"> L'interne est dans la RAM, l'externe est sur le disque dur.</label></div>
+                <div><label><input type="radio" name="q17" value="b"> L'interne est l'espace perdu à l'intérieur d'un bloc alloué, l'externe est l'espace perdu entre les blocs alloués.</label></div>
+                <div><label><input type="radio" name="q17" value="c"> L'interne est causée par les processus, l'externe par le système d'exploitation.</label></div>
+                <div><label><input type="radio" name="q17" value="d"> Il n'y a pas de différence fondamentale.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 18 -->
+        <div class="question-block" id="q18">
+            <p class="question-title">18. Lequel de ces problèmes est considéré comme NP-complet, rendant sa résolution exacte très coûteuse en temps pour de grandes instances ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q18" value="a"> Trier un tableau.</label></div>
+                <div><label><input type="radio" name="q18" value="b"> Trouver le chemin le plus court dans un graphe pondéré (Dijkstra).</label></div>
+                <div><label><input type="radio" name="q18" value="c"> Chercher un élément dans un arbre binaire de recherche.</label></div>
+                <div><label><input type="radio" name="q18" value="d"> Le problème du voyageur de commerce.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 19 -->
+        <div class="question-block" id="q19">
+            <p class="question-title">19. Pour signer numériquement un document, quelle clé est utilisée ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q19" value="a"> La clé privée de l'expéditeur</label></div>
+                <div><label><input type="radio" name="q19" value="b"> La clé publique de l'expéditeur</label></div>
+                <div><label><input type="radio" name="q19" value="c"> La clé privée du destinataire</label></div>
+                <div><label><input type="radio" name="q19" value="d"> La clé publique du destinataire</label></div>
+            </div>
+        </div>
+
+        <!-- Question 20 -->
+        <div class="question-block" id="q20">
+            <p class="question-title">20. Comment le système d'exploitation empêche-t-il un processus d'accéder à la mémoire d'un autre processus ? (Plusieurs réponses possibles)</p>
+            <div class="answers" data-type="checkbox" data-correct='["b", "d"]'>
+                <div><label><input type="checkbox" name="q20" value="a"> En donnant une priorité plus élevée à un processus.</label></div>
+                <div><label><input type="checkbox" name="q20" value="b"> En utilisant la mémoire virtuelle pour donner à chaque processus un espace d'adressage isolé.</label></div>
+                <div><label><input type="checkbox" name="q20" value="c"> En stockant tous les processus sur le disque dur.</label></div>
+                <div><label><input type="checkbox" name="q20" value="d"> Grâce à la pagination et à la segmentation gérées par l'unité de gestion mémoire (MMU).</label></div>
+            </div>
+        </div>
+
+        <h2>Questions Difficiles</h2>
+
+        <!-- Question 21 -->
+        <div class="question-block" id="q21">
+            <p class="question-title">21. Vous concevez une application qui nécessite de trouver le chemin le plus court entre deux points sur une carte routière avec des péages. Quel algorithme serait le plus adapté pour minimiser le coût total (distance + péages) ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q21" value="a"> L'algorithme de Dijkstra ou A* si une heuristique est disponible.</label></div>
+                <div><label><input type="radio" name="q21" value="b"> Un parcours en largeur (BFS) car il trouve le chemin avec le moins d'étapes.</label></div>
+                <div><label><input type="radio" name="q21" value="c"> Un parcours en profondeur (DFS) pour explorer toutes les options.</label></div>
+                <div><label><input type="radio" name="q21" value="d"> L'algorithme de Kruskal pour trouver un arbre couvrant minimal.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 22 -->
+        <div class="question-block" id="q22">
+            <p class="question-title">22. L'algorithme d'ordonnancement "Round Robin" (tourniquet) est conçu pour adresser quel problème principal du "FIFO" ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q22" value="a"> La complexité d'implémentation.</label></div>
+                <div><label><input type="radio" name="q22" value="b"> La famine (starvation).</label></div>
+                <div><label><input type="radio" name="q22" value="c"> L'effet de convoi, en donnant à chaque processus un petit temps de calcul (quantum).</label></div>
+                <div><label><input type="radio" name="q22" value="d"> La gestion des processus avec des priorités différentes.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 23 -->
+        <div class="question-block" id="q23">
+            <p class="question-title">23. Si la complexité d'un algorithme est T(n) = 8 * T(n/2) + O(n²), que pouvez-vous conclure de sa complexité temporelle en utilisant le Master Theorem ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q23" value="a"> O(n²)</label></div>
+                <div><label><input type="radio" name="q23" value="b"> O(n² log n)</label></div>
+                <div><label><input type="radio" name="q23" value="c"> O(n log n)</label></div>
+                <div><label><input type="radio" name="q23" value="d"> O(n³)</label></div>
+            </div>
+        </div>
+        
+        <!-- Question 24 -->
+        <div class="question-block" id="q24">
+            <p class="question-title">24. Pour réduire l'empreinte carbone d'une application existante sans modifier son code, quelle est la stratégie la plus impactante ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q24" value="a"> Utiliser un écran avec une luminosité plus faible.</label></div>
+                <div><label><input type="radio" name="q24" value="b"> Migrer l'application sur un datacenter alimenté par des énergies renouvelables et situé dans une région froide.</label></div>
+                <div><label><input type="radio" name="q24" value="c"> Mettre à jour le système d'exploitation.</label></div>
+                <div><label><input type="radio" name="q24" value="d"> Changer la police de caractères de l'interface.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 25 -->
+        <div class="question-block" id="q25">
+            <p class="question-title">25. Une condition de concurrence (race condition) se produit quand :</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q25" value="a"> Le résultat d'une opération dépend de l'ordonnancement imprévisible de plusieurs threads accédant à une ressource partagée.</label></div>
+                <div><label><input type="radio" name="q25" value="b"> Un processus attend une ressource qui ne sera jamais libérée.</label></div>
+                <div><label><input type="radio" name="q25" value="c"> Deux processus s'attendent mutuellement.</label></div>
+                <div><label><input type="radio" name="q25" value="d"> Un thread s'exécute beaucoup plus vite qu'un autre.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 26 -->
+        <div class="question-block" id="q26">
+            <p class="question-title">26. En cryptographie, l'échange de clés Diffie-Hellman permet à deux parties de :</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q26" value="a"> S'échanger des messages chiffrés.</label></div>
+                <div><label><input type="radio" name="q26" value="b"> Signer numériquement des documents.</label></div>
+                <div><label><input type="radio" name="q26" value="c"> Établir une clé secrète partagée sur un canal de communication non sécurisé.</label></div>
+                <div><label><input type="radio" name="q26" value="d"> Hacher des mots de passe en toute sécurité.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 27 -->
+        <div class="question-block" id="q27">
+            <p class="question-title">27. Vous avez un grand ensemble de données de séries temporelles et vous suspectez des anomalies saisonnières. Quelle approche de détection serait la plus adaptée ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q27" value="a"> Un simple Z-score sur l'ensemble des données.</label></div>
+                <div><label><input type="radio" name="q27" value="b"> Un seuil fixe basé sur le maximum global.</label></div>
+                <div><label><input type="radio" name="q27" value="c"> L'IQR appliqué à toutes les données confondues.</label></div>
+                <div><label><input type="radio" name="q27" value="d"> Une décomposition de la série en tendance, saisonnalité et résidu, puis l'application d'un Z-score ou IQR sur le résidu.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 28 -->
+        <div class="question-block" id="q28">
+            <p class="question-title">28. Quel est le compromis principal dans le choix de la taille d'une page dans un système de gestion de mémoire par pagination ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q28" value="a"> Pages plus grandes = plus rapide, pages plus petites = plus lent.</label></div>
+                <div><label><input type="radio" name="q28" value="b"> Pages plus petites réduisent la fragmentation interne mais augmentent la taille de la table des pages (surcharge mémoire).</label></div>
+                <div><label><input type="radio" name="q28" value="c"> Pages plus grandes sont plus faciles à gérer pour le CPU.</label></div>
+                <div><label><input type="radio" name="q28" value="d"> Il n'y a pas de compromis, il faut toujours utiliser la plus grande taille de page possible.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 29 -->
+        <div class="question-block" id="q29">
+            <p class="question-title">29. Pour résoudre un problème d'optimisation sur graphes qui est NP-complet (ex: coloration de graphe), quelle est l'approche la plus pragmatique pour des graphes de grande taille ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="a" value="a"> Utiliser un algorithme glouton ou une autre heuristique pour trouver une bonne solution approchée rapidement.</label></div>
+                <div><label><input type="radio" name="q29" value="b"> Toujours calculer la solution exacte, même si cela prend des jours.</label></div>
+                <div><label><input type="radio" name="q29" value="c"> Simplifier le graphe en retirant des sommets jusqu'à ce que le problème devienne facile.</label></div>
+                <div><label><input type="radio" name="q29" value="d"> Convertir le problème en un autre problème plus simple.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 30 -->
+        <div class="question-block" id="q30">
+            <p class="question-title">30. Comment une attaque par "homme du milieu" (Man-in-the-Middle) peut-elle compromettre l'échange de clés Diffie-Hellman ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q30" value="a"> En devinant la clé privée de l'une des parties.</label></div>
+                <div><label><input type="radio" name="q30" value="b"> En inondant le réseau de paquets pour ralentir la communication.</label></div>
+                <div><label><input type="radio" name="q30" value="c"> En s'interposant, en établissant une clé secrète avec chaque partie et en relayant les messages, les déchiffrant et les re-chiffrant au passage.</label></div>
+                <div><label><input type="radio" name="q30" value="d"> Ce n'est pas possible, Diffie-Hellman est invulnérable à ce type d'attaque.</label></div>
+            </div>
+        </div>
+
+    </form>
+    
+    <button type="button" onclick="corrigerQuiz()">Corriger</button>
+    <div id="resultat"></div>
+
+    <script>
+        function corrigerQuiz() {
+            const form = document.getElementById('quizForm');
+            const questions = form.querySelectorAll('.question-block');
+            let score = 0;
+            const totalQuestions = questions.length;
+
+            questions.forEach(question => {
+                const answersDiv = question.querySelector('.answers');
+                const type = answersDiv.dataset.type;
+                const correctAnswers = JSON.parse(answersDiv.dataset.correct);
+                const inputs = question.querySelectorAll('input');
+                let isQuestionCorrect = false;
+
+                if (type === 'radio') {
+                    const checkedInput = question.querySelector('input:checked');
+                    if (checkedInput && correctAnswers.includes(checkedInput.value)) {
+                        isQuestionCorrect = true;
+                    }
+                } else if (type === 'checkbox') {
+                    const checkedValues = Array.from(question.querySelectorAll('input:checked')).map(i => i.value);
+                    const sortedChecked = [...checkedValues].sort();
+                    const sortedCorrect = [...correctAnswers].sort();
+                    if (JSON.stringify(sortedChecked) === JSON.stringify(sortedCorrect)) {
+                        isQuestionCorrect = true;
+                    }
+                }
+
+                if (isQuestionCorrect) {
+                    score++;
+                }
+
+                // Apply styling to all options
+                inputs.forEach(input => {
+                    const answerDiv = input.closest('.answers > div');
+                    answerDiv.className = ''; // Reset classes
+
+                    const isCorrectChoice = correctAnswers.includes(input.value);
+
+                    if (input.checked) {
+                        if (isCorrectChoice) {
+                            answerDiv.classList.add('correct');
+                        } else {
+                            answerDiv.classList.add('incorrect');
+                        }
+                    } else {
+                        if (isCorrectChoice) {
+                            answerDiv.classList.add('missed-correct');
+                        }
+                    }
+                });
+            });
+
+            const resultatDiv = document.getElementById('resultat');
+            resultatDiv.innerHTML = `Votre score est de ${score} / ${totalQuestions}`;
+            window.scrollTo(0, 0);
+        }
+    </script>
+
+</body>
+</html>

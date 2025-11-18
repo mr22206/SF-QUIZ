@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Sciences du Numérique 2 (Version Révisée)</title>
+    <link rel="stylesheet" href="quiz_style.css">
+</head>
+<body>
+
+    <h1>Quiz - Sciences du Numérique 2 (Version Révisée)</h1>
+    <p>Ce quiz contient 30 nouvelles questions pratiques. Préparez une feuille de papier pour vos raisonnements.</p>
+    
+    <form id="quizForm">
+        
+        <h2>Questions Faciles</h2>
+
+        <!-- Question 1 -->
+        <div class="question-block" id="q1">
+            <p class="question-title">1. Un serveur a un PUE (Power Usage Effectiveness) de 2.0. Si ses équipements informatiques consomment 500W, quelle est la consommation totale du serveur (incluant refroidissement, etc.) ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q1" value="a"> 500 W</label></div>
+                <div><label><input type="radio" name="q1" value="b"> 250 W</label></div>
+                <div><label><input type="radio" name="q1" value="c"> 1000 W (1 kW)</label></div>
+                <div><label><input type="radio" name="q1" value="d"> 750 W</label></div>
+            </div>
+        </div>
+        
+        <!-- Question 2 -->
+        <div class="question-block" id="q2">
+            <p class="question-title">2. Quelle est la complexité temporelle (Big O) pour accéder à un élément par son index dans un tableau (array) ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q2" value="a"> O(n)</label></div>
+                <div><label><input type="radio" name="q2" value="b"> O(log n)</label></div>
+                <div><label><input type="radio" name="q2" value="c"> O(n²)</label></div>
+                <div><label><input type="radio" name="q2" value="d"> O(1)</label></div>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-block" id="q3">
+            <p class="question-title">3. Un graphe non orienté est dit "complet" si chaque sommet est relié à tous les autres. Combien d'arêtes possède un graphe complet à 4 sommets ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q3" value="a"> 4</label></div>
+                <div><label><input type="radio" name="q3" value="b"> 5</label></div>
+                <div><label><input type="radio" name="q3" value="c"> 6</label></div>
+                <div><label><input type="radio" name="q3" value="d"> 8</label></div>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question-block" id="q4">
+            <p class="question-title">4. Quel type de chiffrement utilise la même clé pour chiffrer et déchiffrer les données ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q4" value="a"> Chiffrement symétrique (ex: AES)</label></div>
+                <div><label><input type="radio" name="q4" value="b"> Chiffrement asymétrique (ex: RSA)</label></div>
+                <div><label><input type="radio" name="q4" value="c"> Hachage (ex: SHA-256)</label></div>
+                <div><label><input type="radio" name="q4" value="d"> Signature numérique</label></div>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question-block" id="q5">
+            <p class="question-title">5. On a deux processus P1 (5ms) et P2 (12ms). Avec un ordonnanceur SJF (Shortest Job First), quel est le temps de séjour moyen ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q5" value="a"> 17 ms</label></div>
+                <div><label><input type="radio" name="q5" value="b"> 11 ms</label></div>
+                <div><label><input type="radio" name="q5" value="c"> 8.5 ms</label></div>
+                <div><label><input type="radio" name="q5" value="d"> 12 ms</label></div>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question-block" id="q6">
+            <p class="question-title">6. Une table de hachage de taille 10 utilise la fonction h(k) = k mod 10. Les clés 23 et 43 entrent en collision. Comment appelle-t-on ce type de collision ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q6" value="a"> Collision primaire</label></div>
+                <div><label><input type="radio" name="q6" value="b"> Collision secondaire</label></div>
+                <div><label><input type="radio" name="q6" value="c"> Double hachage</label></div>
+                <div><label><input type="radio" name="q6" value="d"> Ce n'est pas une collision.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question-block" id="q7">
+            <p class="question-title">7. Laquelle de ces actions relève de l'ACV (Analyse du Cycle de Vie) d'un équipement informatique dans le Green IT ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q7" value="a"> Augmenter la luminosité de l'écran.</label></div>
+                <div><label><input type="radio" name="q7" value="b"> Installer plus de logiciels.</label></div>
+                <div><label><input type="radio" name="q7" value="c"> Utiliser l'ordinateur uniquement pour les jeux.</label></div>
+                <div><label><input type="radio" name="q7" value="d"> Choisir un appareil avec des composants facilement remplaçables et le recycler en fin de vie.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question-block" id="q8">
+            <p class="question-title">8. Bob reçoit un message signé par Alice. Quelle clé Bob doit-il utiliser pour vérifier l'authenticité de la signature ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q8" value="a"> Sa clé privée.</label></div>
+                <div><label><input type="radio" name="q8" value="b"> Sa clé publique.</label></div>
+                <div><label><input type="radio" name="q8" value="c"> La clé publique d'Alice.</label></div>
+                <div><label><input type="radio" name="q8" value="d"> La clé privée d'Alice.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question-block" id="q9">
+            <p class="question-title">9. Un algorithme a une complexité de O(n!). Dans quelle catégorie de problèmes se classe-t-il généralement ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q9" value="a"> Très efficace</label></div>
+                <div><label><input type="radio" name="q9" value="b"> Linéaire</label></div>
+                <div><label><input type="radio" name="q9" value="c"> Polynomial</label></div>
+                <div><label><input type="radio" name="q9" value="d"> Intratable pour n élevé</label></div>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question-block" id="q10">
+            <p class="question-title">10. Qu'est-ce qu'un "thread" par rapport à un "processus" ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q10" value="a"> Une unité d'exécution plus légère au sein d'un même processus, partageant le même espace mémoire.</label></div>
+                <div><label><input type="radio" name="q10" value="b"> Un autre nom pour un processus.</label></div>
+                <div><label><input type="radio" name="q10" value="c"> Un processus qui s'exécute avec des privilèges plus élevés.</label></div>
+                <div><label><input type="radio" name="q10" value="d"> Un processus qui ne peut pas être interrompu.</label></div>
+            </div>
+        </div>
+        
+        <h2>Questions Moyennes</h2>
+
+        <!-- Question 11 -->
+        <div class="question-block" id="q11">
+            <p class="question-title">11. On a une liste de processus [P1(10ms), P2(1ms), P3(2ms)] arrivant dans cet ordre. Quel est le temps d'attente moyen avec l'ordonnancement FIFO ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q11" value="a"> 10.33 ms</label></div>
+                <div><label><input type="radio" name="q11" value="b"> 7 ms</label></div>
+                <div><label><input type="radio" name="q11" value="c"> 0 ms</label></div>
+                <div><label><input type="radio" name="q11" value="d"> 13 ms</label></div>
+            </div>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="question-block" id="q12">
+            <p class="question-title">12. Dans RSA, on choisit p=3 et q=11. Quel est n et l'indicatrice d'Euler φ(n) ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q12" value="a"> n=14, φ(n)=13</label></div>
+                <div><label><input type="radio" name="q12" value="b"> n=33, φ(n)=32</label></div>
+                <div><label><input type="radio" name="q12" value="c"> n=33, φ(n)=22</label></div>
+                <div><label><input type="radio" name="q12" value="d"> n=33, φ(n)=20</label></div>
+            </div>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question-block" id="q13">
+            <p class="question-title">13. Voici une liste d'adjacence pour un graphe non orienté :<br>
+            A: [B, C]<br>
+            B: [A, C]<br>
+            C: [A, B]<br>
+            Quelle est la matrice d'adjacence correspondante (en ordre A,B,C) ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q13" value="a"> [[0, 1, 1], [1, 0, 1], [1, 1, 0]]</label></div>
+                <div><label><input type="radio" name="q13" value="b"> [[1, 1, 1], [1, 1, 1], [1, 1, 1]]</label></div>
+                <div><label><input type="radio" name="q13" value="c"> [[0, 1, 0], [0, 0, 1], [1, 0, 0]]</label></div>
+                <div><label><input type="radio" name="q13" value="d"> [[0, 1, 1], [0, 0, 1], [0, 0, 0]]</label></div>
+            </div>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question-block" id="q14">
+            <p class="question-title">14. On considère le code Python suivant :<br>
+            `import numpy as np`<br>
+            `a = np.array([1, 2, 3])`<br>
+            `b = np.array([10, 20, 30])`<br>
+            `result = a.dot(b)`<br>
+            Que contient `result` ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q14" value="a"> [10, 40, 90]</label></div>
+                <div><label><input type="radio" name="q14" value="b"> 66</label></div>
+                <div><label><input type="radio" name="q14" value="c"> 140</label></div>
+                <div><label><input type="radio" name="q14" value="d"> Une erreur, car les dimensions sont incompatibles.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 15 -->
+        <div class="question-block" id="q15">
+            <p class="question-title">15. Quel est l'inverse de 7 modulo 26 ? (Indice: 7 * x ≡ 1 mod 26)</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q15" value="a"> 7</label></div>
+                <div><label><input type="radio" name="q15" value="b"> 15</label></div>
+                <div><label><input type="radio" name="q15" value="c"> 21</label></div>
+                <div><label><input type="radio" name="q15" value="d"> Il n'existe pas.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 16 -->
+        <div class="question-block" id="q16">
+            <p class="question-title">16. Un sémaphore est initialisé à 3. Trois threads effectuent une opération P (wait). Un quatrième thread arrive et effectue une opération P. Que se passe-t-il ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q16" value="a"> Il continue son exécution, le sémaphore passe à -1.</label></div>
+                <div><label><input type="radio" name="q16" value="b"> Le système génère une erreur.</label></div>
+                <div><label><input type="radio" name="q16" value="c"> Il est bloqué jusqu'à ce qu'un autre thread fasse une opération V (signal).</label></div>
+                <div><label><input type="radio" name="q16" value="d"> Le sémaphore est automatiquement réinitialisé à 3.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 17 -->
+        <div class="question-block" id="q17">
+            <p class="question-title">17. Vous voulez trouver le chemin le plus court entre deux villes dans un réseau routier où les routes ont des poids (distances). Quel algorithme est le plus adapté ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q17" value="a"> Parcours en Largeur (BFS)</label></div>
+                <div><label><input type="radio" name="q17" value="b"> Parcours en Profondeur (DFS)</label></div>
+                <div><label><input type="radio" name="q17" value="c"> Algorithme de Dijkstra</label></div>
+                <div><label><input type="radio" name="q17" value="d"> Algorithme de Kruskal</label></div>
+            </div>
+        </div>
+
+        <!-- Question 18 -->
+        <div class="question-block" id="q18">
+            <p class="question-title">18. Un système a 4 Go de RAM et une adresse virtuelle de 32 bits (4 Go d'espace d'adressage). Si la table des pages d'un processus contient 1024 entrées, quelle est la taille de chaque page ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q18" value="a"> 4 Ko</label></div>
+                <div><label><input type="radio" name="q18" value="b"> 1 Mo</label></div>
+                <div><label><input type="radio" name="q18" value="c"> 2 Mo</label></div>
+                <div><label><input type="radio" name="q18" value="d"> 4 Mo</label></div>
+            </div>
+        </div>
+
+        <!-- Question 19 -->
+        <div class="question-block" id="q19">
+            <p class="question-title">19. Une table de hachage de taille 10 utilise le hachage double avec h1(k) = k mod 10 et h2(k) = 7 - (k mod 7). Pour insérer la clé 20, puis 30, où se trouve 30 ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q19" value="a"> Index 5</label></div>
+                <div><label><input type="radio" name="q19" value="b"> Index 0</label></div>
+                <div><label><input type="radio" name="q19" value="c"> Index 2</label></div>
+                <div><label><input type="radio" name="q19" value="d"> Index 7</label></div>
+            </div>
+        </div>
+
+        <!-- Question 20 -->
+        <div class="question-block" id="q20">
+            <p class="question-title">20. Quelle est la différence fondamentale entre les problèmes de classe P et de classe NP ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q20" value="a"> P contient les problèmes "faciles", NP les problèmes "impossibles".</label></div>
+                <div><label><input type="radio" name="q20" value="b"> Pour P, on peut trouver une solution rapidement. Pour NP, on peut vérifier une solution rapidement.</label></div>
+                <div><label><input type="radio" name="q20" value="c"> Les problèmes NP ne peuvent pas être résolus par un ordinateur.</label></div>
+                <div><label><input type="radio" name="q20" value="d"> P = NP est une certitude mathématique.</label></div>
+            </div>
+        </div>
+
+        <h2>Questions Difficiles</h2>
+
+        <!-- Question 21 -->
+        <div class="question-block" id="q21">
+            <p class="question-title">21. Vous avez une liste de processus [P1(6ms, arr 0), P2(8ms, arr 1), P3(7ms, arr 2), P4(3ms, arr 3)]. Calculez le temps d'attente moyen avec l'ordonnancement "Shortest Job First" (SJF) non préemptif.</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q21" value="a"> 8.0 ms</label></div>
+                <div><label><input type="radio" name="q21" value="b"> 6.5 ms</label></div>
+                <div><label><input type="radio" name="q21" value="c"> 7.0 ms</label></div>
+                <div><label><input type="radio" name="q21" value="d"> 9.25 ms</label></div>
+            </div>
+        </div>
+
+        <!-- Question 22 -->
+        <div class="question-block" id="q22">
+            <p class="question-title">22. Un algorithme glouton est-il toujours optimal pour le problème du rendu de monnaie ? (ex: rendre 30 avec des pièces de 1, 15, 25)</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q22" value="a"> Oui, il donne toujours la solution avec le moins de pièces.</label></div>
+                <div><label><input type="radio" name="q22" value="b"> Non, il peut échouer. (Glouton: 25+1+1+1+1+1. Optimal: 15+15).</label></div>
+                <div><label><input type="radio" name="q22" value="c"> Oui, mais seulement si les valeurs des pièces sont des puissances de 2.</label></div>
+                <div><label><input type="radio" name="q22" value="d"> Cela dépend de la somme à rendre.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 23 -->
+        <div class="question-block" id="q23">
+            <p class="question-title">23. Dans RSA, avec n=33 et e=3, quel est l'exposant de déchiffrement 'd' ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q23" value="a"> 7</label></div>
+                <div><label><input type="radio" name="q23" value="b"> 3</label></div>
+                <div><label><input type="radio" name="q23" value="c"> 13</label></div>
+                <div><label><input type="radio" name="q23" value="d"> 20</label></div>
+            </div>
+        </div>
+        
+        <!-- Question 24 -->
+        <div class="question-block" id="q24">
+            <p class="question-title">24. Un système utilise l'algorithme du banquier pour éviter les interblocages. Il y a 10 instances d'une ressource. <br>
+            P0 a 5, max 10.<br>
+            P1 a 2, max 4.<br>
+            P2 a 2, max 9.<br>
+            Combien d'instances sont disponibles et l'état est-il sûr ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q24" value="a"> 1 disponible, état sûr.</label></div>
+                <div><label><input type="radio" name="q24" value="b"> 1 disponible, état non sûr.</label></div>
+                <div><label><input type="radio" name="q24" value="c"> 9 disponible, état sûr.</label></div>
+                <div><label><input type="radio" name="q24" value="d"> 9 disponible, état non sûr.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 25 -->
+        <div class="question-block" id="q25">
+            <p class="question-title">25. Un "arbre couvrant de poids minimum" (MST) d'un graphe pondéré est un sous-ensemble d'arêtes qui connecte tous les sommets sans cycle et avec le poids total minimum. Quel algorithme ne trouve PAS un MST ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q25" value="a"> Algorithme de Prim</label></div>
+                <div><label><input type="radio" name="q25" value="b"> Algorithme de Kruskal</label></div>
+                <div><label><input type="radio" name="q25" value="c"> Algorithme de Dijkstra</label></div>
+                <div><label><input type="radio" name="q25" value="d"> Algorithme de Borůvka</label></div>
+            </div>
+        </div>
+
+        <!-- Question 26 -->
+        <div class="question-block" id="q26">
+            <p class="question-title">26. Une fonction de hachage est dite "résistante aux collisions" si il est difficile de trouver x et y tels que h(x) = h(y). Pourquoi est-ce crucial pour les signatures numériques ?</p>
+            <div class="answers" data-type="radio" data-correct='["d"]'>
+                <div><label><input type="radio" name="q26" value="a"> Pour que le hachage soit rapide.</label></div>
+                <div><label><input type="radio" name="q26" value="b"> Pour garantir la confidentialité du message.</label></div>
+                <div><label><input type="radio" name="q26" value="c"> Pour que la signature soit courte.</label></div>
+                <div><label><input type="radio" name="q26" value="d"> Pour empêcher un attaquant de créer un autre document (frauduleux) ayant la même signature que l'original.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 27 -->
+        <div class="question-block" id="q27">
+            <p class="question-title">27. Vous analysez la complexité d'une fonction récursive définie par T(n) = T(n-1) + O(n). Quelle est sa complexité ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q27" value="a"> O(n)</label></div>
+                <div><label><input type="radio" name="q27" value="b"> O(n log n)</label></div>
+                <div><label><input type="radio" name="q27" value="c"> O(n²)</label></div>
+                <div><label><input type="radio" name="q27" value="d"> O(2^n)</label></div>
+            </div>
+        </div>
+
+        <!-- Question 28 -->
+        <div class="question-block" id="q28">
+            <p class="question-title">28. Quel est le principal compromis dans le choix d'un algorithme de "garbage collection" (ramasse-miettes) ?</p>
+            <div class="answers" data-type="radio" data-correct='["b"]'>
+                <div><label><input type="radio" name="q28" value="a"> Vitesse contre sécurité.</label></div>
+                <div><label><input type="radio" name="q28" value="b"> Efficacité (mémoire récupérée) et débit contre la durée des pauses (latence).</label></div>
+                <div><label><input type="radio" name="q28" value="c"> Simplicité du code contre complexité d'exécution.</label></div>
+                <div><label><input type="radio" name="q28" value="d"> Consommation mémoire contre consommation CPU.</label></div>
+            </div>
+        </div>
+
+        <!-- Question 29 -->
+        <div class="question-block" id="q29">
+            <p class="question-title">29. On a le graphe suivant : A-B(4), A-C(2), B-C(1), B-D(5), C-D(8). Quel est le poids de l'arbre couvrant de poids minimum trouvé par l'algorithme de Kruskal ?</p>
+            <div class="answers" data-type="radio" data-correct='["a"]'>
+                <div><label><input type="radio" name="q29" value="a"> 8</label></div>
+                <div><label><input type="radio" name="q29" value="b"> 9</label></div>
+                <div><label><input type="radio" name="q29" value="c"> 11</label></div>
+                <div><label><input type="radio" name="q29" value="d"> 7</label></div>
+            </div>
+        </div>
+
+        <!-- Question 30 -->
+        <div class="question-block" id="q30">
+            <p class="question-title">30. Un problème NP-complet peut-il être résolu en temps polynomial par une machine de Turing non déterministe ?</p>
+            <div class="answers" data-type="radio" data-correct='["c"]'>
+                <div><label><input type="radio" name="q30" value="a"> Non, c'est impossible par définition.</label></div>
+                <div><label><input type="radio" name="q30" value="b"> Oui, mais seulement si P=NP.</label></div>
+                <div><label><input type="radio" name="q30" value="c"> Oui, c'est la définition même de la classe NP.</label></div>
+                <div><label><input type="radio" name="q30" value="d"> Seulement pour des petites instances du problème.</label></div>
+            </div>
+        </div>
+
+    </form>
+    
+    <button type="button" onclick="corrigerQuiz()">Corriger</button>
+    <div id="resultat"></div>
+
+    <script>
+        function corrigerQuiz() {
+            const form = document.getElementById('quizForm');
+            const questions = form.querySelectorAll('.question-block');
+            let score = 0;
+            const totalQuestions = questions.length;
+
+            questions.forEach(question => {
+                const answersDiv = question.querySelector('.answers');
+                const type = answersDiv.dataset.type;
+                const correctAnswers = JSON.parse(answersDiv.dataset.correct);
+                const inputs = question.querySelectorAll('input');
+                let isQuestionCorrect = false;
+
+                if (type === 'radio') {
+                    const checkedInput = question.querySelector('input:checked');
+                    if (checkedInput && correctAnswers.includes(checkedInput.value)) {
+                        isQuestionCorrect = true;
+                    }
+                } else if (type === 'checkbox') {
+                    const checkedValues = Array.from(question.querySelectorAll('input:checked')).map(i => i.value);
+                    const sortedChecked = [...checkedValues].sort();
+                    const sortedCorrect = [...correctAnswers].sort();
+                    if (JSON.stringify(sortedChecked) === JSON.stringify(sortedCorrect)) {
+                        isQuestionCorrect = true;
+                    }
+                }
+
+                if (isQuestionCorrect) {
+                    score++;
+                }
+
+                // Apply styling to all options
+                inputs.forEach(input => {
+                    const answerDiv = input.closest('.answers > div');
+                    answerDiv.className = ''; // Reset classes
+
+                    const isCorrectChoice = correctAnswers.includes(input.value);
+
+                    if (input.checked) {
+                        if (isCorrectChoice) {
+                            answerDiv.classList.add('correct');
+                        } else {
+                            answerDiv.classList.add('incorrect');
+                        }
+                    } else {
+                        if (isCorrectChoice) {
+                            answerDiv.classList.add('missed-correct');
+                        }
+                    }
+                });
+            });
+
+            const resultatDiv = document.getElementById('resultat');
+            resultatDiv.innerHTML = `Votre score est de ${score} / ${totalQuestions}`;
+            window.scrollTo(0, 0);
+        }
+    </script>
+
+</body>
+</html>
