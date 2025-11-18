@@ -1,0 +1,305 @@
+<!DOCTYPE html><html><head>
+      <title>fiche_revision_numerique</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/mohammadrezkiprivate/.cursor/extensions/shd101wyy.markdown-preview-enhanced-0.8.20-universal/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="fiche-de-révision---sciences-du-numérique">Fiche de Révision - Sciences du Numérique </h1>
+<p>Cette fiche est structurée pour une révision efficace : une synthèse des concepts clés en haut, avec des liens vers des explications détaillées plus bas.</p>
+<hr>
+<h2 id="synthèse--concepts-et-définitions-clés">Synthèse : Concepts et Définitions Clés </h2>
+<h3 id="1-systèmes-dexploitation-os">1. Systèmes d'Exploitation (OS) </h3>
+<ul>
+<li><strong>Processus vs Thread :</strong> Un processus a une mémoire isolée; les threads d'un processus partagent la même mémoire --- <a href="#ex-proc-thread">détails</a></li>
+<li><strong>Ordonnancement :</strong> Gestion de l'accès au processeur (<code>FIFO</code>, <code>Round Robin</code>, <code>SJF</code>, <code>SRTF</code>) --- <a href="#ex-ordo">détails</a>
+<ul>
+<li><strong>Temps de séjour</strong> = Temps de fin - Temps d'arrivée</li>
+<li><strong>Temps d'attente</strong> = Temps de séjour - Temps d'exécution</li>
+</ul>
+</li>
+<li><strong>Synchronisation :</strong>
+<ul>
+<li><strong>Condition de Concurrence :</strong> Bug lié à l'ordre d'exécution imprévisible de threads --- <a href="#ex-race">détails</a></li>
+<li><strong>Interblocage (Deadlock) :</strong> Attente mutuelle de ressources entre plusieurs processus. 4 conditions : Exclusion mutuelle, Détention et attente, Pas de préemption, Attente circulaire --- <a href="#ex-deadlock">détails</a></li>
+</ul>
+</li>
+<li><strong>Gestion de la mémoire :</strong>
+<ul>
+<li><strong>Mémoire Virtuelle :</strong> Isolation des processus et extension de la RAM via le disque --- <a href="#ex-mem-virt">détails</a></li>
+<li><strong>Pagination :</strong> Division de la mémoire en blocs de taille fixe (pages).</li>
+<li><strong>Fragmentation interne :</strong> Espace perdu dans la dernière page allouée à un processus. --- <a href="#ex-pagination">détails</a></li>
+</ul>
+</li>
+<li><strong>Systèmes de fichiers :</strong>
+<ul>
+<li><strong>I-node :</strong> Structure contenant les métadonnées d'un fichier, incluant des pointeurs vers les blocs de données.</li>
+<li><strong>Taille max de fichier</strong> = (Nb pointeurs directs + Nb pointeurs indirects × (Taille bloc / Taille pointeur)) × Taille bloc --- <a href="#ex-inode">détails</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="2-algorithmique-et-structures-de-données">2. Algorithmique et Structures de Données </h3>
+<ul>
+<li><strong>Complexité Big O :</strong> Notation pour l'efficacité d'un algorithme (<code>O(1)</code>, <code>O(log n)</code>, <code>O(n)</code>, <code>O(n log n)</code>, <code>O(n²)</code>, <code>O(2^n)</code>) --- <a href="#ex-big-o">détails</a></li>
+<li><strong>Master Theorem :</strong> Pour <code>T(n) = aT(n/b) + O(n^d)</code>, permet de trouver la complexité des algos récursifs. --- <a href="#ex-master-theorem">détails</a></li>
+<li><strong>Classes de Problèmes :</strong>
+<ul>
+<li><strong>P :</strong> Solution trouvable en temps polynomial.</li>
+<li><strong>NP :</strong> Solution vérifiable en temps polynomial.</li>
+<li><strong>NP-complet :</strong> Les problèmes les plus difficiles de NP (ex: Voyageur de commerce). --- <a href="#ex-np">détails</a></li>
+</ul>
+</li>
+<li><strong>Table de Hachage :</strong> Accès en <code>O(1)</code> en moyenne. Gestion des collisions (sondage linéaire, double hachage). --- <a href="#ex-hash">détails</a></li>
+<li><strong>Graphes :</strong>
+<ul>
+<li><strong>Terminologie :</strong> Sommets, arêtes, degré. <strong>Lemme des poignées de main</strong> : <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∑</mo><mtext>deg</mtext><mo stretchy="false">(</mo><mi>v</mi><mo stretchy="false">)</mo><mo>=</mo><mn>2</mn><mo>×</mo><mi mathvariant="normal">∣</mi><mrow><mtext>Ar</mtext><mover accent="true"><mtext>e</mtext><mo>ˆ</mo></mover><mtext>tes</mtext></mrow><mi mathvariant="normal">∣</mi></mrow><annotation encoding="application/x-tex">\sum \text{deg}(v) = 2 \times |\text{Arêtes}|</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mop op-symbol small-op" style="position:relative;top:0em;">∑</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">deg</span></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord text"><span class="mord">Ar</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6944em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord">e</span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˆ</span></span></span></span></span></span></span><span class="mord">tes</span></span><span class="mord">∣</span></span></span></span> --- <a href="#ex-graph-term">détails</a></li>
+<li><strong>Représentations :</strong> Matrice d'adjacence vs Liste d'adjacence --- <a href="#ex-graph-rep">détails</a></li>
+<li><strong>Parcours :</strong> BFS (en largeur, plus court chemin en arêtes) et DFS (en profondeur, exploration exhaustive). --- <a href="#ex-graph-parcours">détails</a></li>
+<li><strong>Algorithmes :</strong> Dijkstra (plus court chemin pondéré), Kruskal/Prim (arbre couvrant de poids minimum). --- <a href="#ex-graph-algo">détails</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="3-cryptographie">3. Cryptographie </h3>
+<ul>
+<li><strong>Symétrique vs Asymétrique :</strong> Même clé (AES) vs paire de clés publique/privée (RSA) --- <a href="#ex-crypto-sym">détails</a></li>
+<li><strong>Chiffrement de César :</strong> Décalage simple de l'alphabet. --- <a href="#ex-cesar">détails</a></li>
+<li><strong>RSA :</strong>
+<ol>
+<li>Choisir <code>p</code>, <code>q</code> (premiers).</li>
+<li><code>n = p \times q</code>.</li>
+<li><code>φ(n) = (p-1)(q-1)</code>.</li>
+<li>Choisir <code>e</code> premier avec <code>φ(n)</code>.</li>
+<li>Calculer <code>d</code> tel que <code>d \times e \equiv 1 \pmod{\phi(n)}</code> (inverse modulaire). --- <a href="#ex-rsa">détails</a></li>
+</ol>
+</li>
+<li><strong>Signature Numérique :</strong> Garantit Authenticité, Intégrité, Non-répudiation (créée avec la clé privée, vérifiée avec la publique) --- <a href="#ex-signature">détails</a></li>
+<li><strong>Hachage et Salage :</strong> Empreinte à sens unique (SHA-256) + ajout d'aléa pour contrer les tables arc-en-ciel. --- <a href="#ex-hachage">détails</a></li>
+<li><strong>Arithmétique modulaire :</strong>
+<ul>
+<li><strong>Algorithme d'Euclide :</strong> Calcul du PGCD.</li>
+<li><strong>Petit Théorème de Fermat :</strong> Si <code>p</code> est premier, <code>a^{p-1} \equiv 1 \pmod p</code>. --- <a href="#ex-crypto-theo">détails</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="4-green-it-et-analyse-de-données">4. Green IT et Analyse de Données </h3>
+<ul>
+<li><strong>Green IT :</strong>
+<ul>
+<li><strong>PUE (Power Usage Effectiveness) :</strong> <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>PUE</mtext><mo>=</mo><mfrac><mrow><mover accent="true"><mtext>E</mtext><mo>ˊ</mo></mover><mtext>nergie&nbsp;totale&nbsp;du&nbsp;datacenter</mtext></mrow><mrow><mover accent="true"><mtext>E</mtext><mo>ˊ</mo></mover><mtext>nergie&nbsp;des&nbsp;</mtext><mover accent="true"><mtext>e</mtext><mo>ˊ</mo></mover><mtext>quipements&nbsp;IT</mtext></mrow></mfrac></mrow><annotation encoding="application/x-tex">\text{PUE} = \frac{\text{Énergie totale du datacenter}}{\text{Énergie des équipements IT}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord">PUE</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.7177em;vertical-align:-0.6088em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1088em;"><span style="top:-2.5273em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9468em;"><span style="top:-2.7em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord mtight">E</span></span><span style="top:-2.9523em;"><span class="pstrut" style="height:2.7em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord mtight">ˊ</span></span></span></span></span></span></span><span class="mord mtight">nergie&nbsp;des&nbsp;</span><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6944em;"><span style="top:-2.7em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord mtight">e</span></span><span style="top:-2.7em;"><span class="pstrut" style="height:2.7em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord mtight">ˊ</span></span></span></span></span></span></span><span class="mord mtight">quipements&nbsp;IT</span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4461em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9468em;"><span style="top:-2.7em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord mtight">E</span></span><span style="top:-2.9523em;"><span class="pstrut" style="height:2.7em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord mtight">ˊ</span></span></span></span></span></span></span><span class="mord mtight">nergie&nbsp;totale&nbsp;du&nbsp;datacenter</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.6088em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> (proche de 1 = efficace) --- <a href="#ex-greenit">détails</a></li>
+<li><strong>Consommation (kWh) :</strong> <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mtext>Puissance&nbsp;(W)</mtext><mo>×</mo><mtext>Heures&nbsp;d’utilisation</mtext></mrow><mn>1000</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{\text{Puissance (W)} \times \text{Heures d'utilisation}}{1000}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.355em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.01em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1000</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Puissance&nbsp;(W)</span></span><span class="mbin mtight">×</span><span class="mord text mtight"><span class="mord mtight">Heures&nbsp;d’utilisation</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> --- <a href="#ex-greenit">détails</a></li>
+</ul>
+</li>
+<li><strong>Python pour la data :</strong>
+<ul>
+<li><strong>Pandas :</strong> <code>DataFrame</code>, <code>read_csv</code>, <code>groupby()</code>, <code>mean()</code>, filtrage booléen.</li>
+<li><strong>NumPy :</strong> <code>array</code>, <code>dot()</code> (produit scalaire). --- <a href="#ex-pandas">détails</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<hr>
+<h2 id="explications-et-exemples">Explications et Exemples </h2>
+<h3 id="a-nameex-proc-threadaprocessus-vs-thread"><a name="ex-proc-thread" href=""></a>Processus vs Thread </h3>
+<p>Un <strong>processus</strong> est un programme isolé. Si vous ouvrez deux fenêtres de votre navigateur, ce sont deux processus distincts. Si l'un plante, l'autre continue de fonctionner. Un <strong>thread</strong> est une sous-tâche au sein d'un processus. Dans votre traitement de texte, un thread peut vérifier l'orthographe pendant qu'un autre enregistre votre document en arrière-plan. Ils partagent la même mémoire (le document sur lequel vous travaillez).</p>
+<h3 id="a-nameex-ordoaordonnancement"><a name="ex-ordo" href=""></a>Ordonnancement </h3>
+<ul>
+<li><strong>FIFO (First-In, First-Out) :</strong> Le premier arrivé est le premier servi.
+<ul>
+<li><strong>Exemple :</strong> P1(10ms), P2(2ms).
+<ul>
+<li>P1 arrive à t=0, attend 0ms, finit à t=10. Séjour = 10ms.</li>
+<li>P2 arrive à t=0, attend 10ms, finit à t=12. Séjour = 12ms.</li>
+<li>Séjour moyen = (10+12)/2 = 11ms.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>SJF (Shortest Job First) :</strong> Le plus court est servi en premier.
+<ul>
+<li><strong>Exemple :</strong> P1(10ms), P2(2ms).
+<ul>
+<li>P2 arrive à t=0, attend 0ms, finit à t=2. Séjour = 2ms.</li>
+<li>P1 arrive à t=0, attend 2ms, finit à t=12. Séjour = 12ms.</li>
+<li>Séjour moyen = (2+12)/2 = 7ms. (Meilleur que FIFO)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>SRTF (Shortest Remaining Time First) :</strong> SJF préemptif. Si un processus plus court arrive, il prend la main.
+<ul>
+<li><strong>Exemple :</strong> P1(8ms, arr 0), P2(4ms, arr 1).
+<ul>
+<li>t=0: P1 commence.</li>
+<li>t=1: P2 arrive. Il reste 7ms à P1, P2 ne dure que 4ms. P1 est préempté.</li>
+<li>t=1 à t=5: P2 s'exécute et finit.</li>
+<li>t=5: P1 reprend pour ses 7ms restantes.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Round Robin :</strong> Temps partagé équitable.
+<ul>
+<li><strong>Exemple :</strong> P1(10ms), P2(3ms) avec quantum=4ms.
+<ul>
+<li>t=0-4: P1 s'exécute (reste 6ms).</li>
+<li>t=4-7: P2 s'exécute et finit.</li>
+<li>t=7-11: P1 s'exécute (reste 2ms).</li>
+<li>t=11-13: P1 s'exécute et finit.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="a-nameex-raceacondition-de-concurrence"><a name="ex-race" href=""></a>Condition de Concurrence </h3>
+<p>Imaginez deux personnes (threads) essayant de retirer 100€ d'un compte commun de 150€. Les deux lisent le solde (150€). Les deux autorisent le retrait. Le solde final devrait être -50€, mais à cause d'un mauvais ordre d'exécution, il pourrait finir à 50€. Solution : Utiliser des verrous (mutex) ou des sémaphores.</p>
+<h3 id="a-nameex-deadlockainterblocage-deadlock"><a name="ex-deadlock" href=""></a>Interblocage (Deadlock) </h3>
+<p>Deux personnes au milieu d'un couloir étroit. La personne A veut aller à droite, la personne B veut aller à gauche. A ne bougera pas tant que B ne bouge pas, et B ne bougera pas tant que A ne bouge pas. Ils sont bloqués.</p>
+<h3 id="a-nameex-mem-virtamémoire-virtuelle"><a name="ex-mem-virt" href=""></a>Mémoire Virtuelle </h3>
+<p>Votre ordinateur a 8Go de RAM, mais vous ouvrez des programmes qui en demandent 12Go. L'OS utilise une partie du disque dur pour stocker temporairement les 4Go "en trop", donnant l'illusion que la RAM est infinie.</p>
+<h3 id="a-nameex-paginationapagination-et-fragmentation"><a name="ex-pagination" href=""></a>Pagination et Fragmentation </h3>
+<ul>
+<li><strong>Exemple :</strong> Pages de 4Ko. Un processus de 10Ko a besoin de <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">⌈</mo><mn>10</mn><mi mathvariant="normal">/</mi><mn>4</mn><mo stretchy="false">⌉</mo><mo>=</mo><mn>3</mn></mrow><annotation encoding="application/x-tex">\lceil 10/4 \rceil = 3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">⌈</span><span class="mord">10/4</span><span class="mclose">⌉</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3</span></span></span></span> pages.
+<ul>
+<li>Les deux premières pages (8Ko) sont pleines.</li>
+<li>La troisième page contient les 2Ko restants.</li>
+<li><strong>Fragmentation interne</strong> = Espace perdu dans la dernière page = 4Ko - 2Ko = 2Ko.</li>
+</ul>
+</li>
+</ul>
+<h3 id="a-nameex-inodeacalcul-de-taille-de-fichier-i-node"><a name="ex-inode" href=""></a>Calcul de taille de fichier (i-node) </h3>
+<ul>
+<li><strong>Exemple :</strong> Blocs de 4Ko (4096 octets), pointeurs de 4 octets. 12 pointeurs directs, 1 indirect.
+<ul>
+<li>Taille via pointeurs directs = 12 × 4Ko = 48Ko.</li>
+<li>Un bloc indirect contient 4096 / 4 = 1024 pointeurs.</li>
+<li>Taille via pointeur indirect = 1024 × 4Ko = 4096Ko = 4Mo.</li>
+<li>Taille max = 48Ko + 4Mo.</li>
+</ul>
+</li>
+</ul>
+<h3 id="a-nameex-big-oacomplexité-big-o"><a name="ex-big-o" href=""></a>Complexité Big O </h3>
+<p>C'est comme estimer la durée d'une tâche :</p>
+<ul>
+<li><code>O(1)</code> : Accéder à un tableau par son index <code>tab[5]</code>.</li>
+<li><code>O(log n)</code> : Recherche dichotomique.</li>
+<li><code>O(n)</code> : Parcourir un tableau.</li>
+<li><code>O(n²)</code> : Boucles imbriquées <code>for i in n: for j in n:</code>.</li>
+<li><code>O(2^n)</code> : Certains problèmes de backtracking.</li>
+</ul>
+<h3 id="a-nameex-master-theoremamaster-theorem"><a name="ex-master-theorem" href=""></a>Master Theorem </h3>
+<p>Pour <code>T(n) = aT(n/b) + O(n^d)</code>:</p>
+<ul>
+<li>Si <code>log_b(a) &gt; d</code> -&gt; complexité <code>O(n^{log_b(a)})</code>.</li>
+<li>Si <code>log_b(a) = d</code> -&gt; complexité <code>O(n^d log n)</code>.</li>
+<li>Si <code>log_b(a) &lt; d</code> -&gt; complexité <code>O(n^d)</code>.</li>
+<li><strong>Exemple :</strong> <code>T(n) = 2T(n/2) + O(n)</code>. a=2, b=2, d=1. <code>log_2(2) = 1</code>, donc cas 2 -&gt; <code>O(n log n)</code>.</li>
+</ul>
+<h3 id="a-nameex-npaproblèmes-np-complets"><a name="ex-np" href=""></a>Problèmes NP-complets </h3>
+<ul>
+<li><strong>Exemple (Voyageur de commerce) :</strong> Trouver le plus court chemin qui passe par une liste de villes une seule fois. Facile avec 5 villes, mais le temps de calcul explose de manière exponentielle avec 50 villes, rendant la solution exacte impossible à trouver en un temps raisonnable.</li>
+</ul>
+<h3 id="a-nameex-hashatable-de-hachage"><a name="ex-hash" href=""></a>Table de Hachage </h3>
+<ul>
+<li><strong>Sondage linéaire :</strong> Si la case <code>h(k)</code> est occupée, on essaie <code>h(k)+1</code>, <code>h(k)+2</code>, etc.</li>
+<li><strong>Exemple :</strong> Taille 10, h(k)=k%10. Insérer 12, 22, 32.
+<ul>
+<li>12 va en 2.</li>
+<li>22 veut aller en 2, mais c'est pris. Il va en 3.</li>
+<li>32 veut aller en 2, c'est pris. 3 est pris. Il va en 4.</li>
+</ul>
+</li>
+</ul>
+<h3 id="a-nameex-graph-termaterminologie-des-graphes"><a name="ex-graph-term" href=""></a>Terminologie des Graphes </h3>
+<ul>
+<li><strong>Lemme des poignées de main :</strong> Dans un graphe non orienté, la somme des degrés de tous les sommets est égale à deux fois le nombre d'arêtes. Utile pour vérifier la validité d'un graphe.</li>
+</ul>
+<h3 id="a-nameex-graph-repareprésentations-de-graphes"><a name="ex-graph-rep" href=""></a>Représentations de Graphes </h3>
+<ul>
+<li><strong>Matrice d'adjacence :</strong> Un grand tableau où la cellule (i, j) contient 1 s'il y a une arête. Rapide pour voir s'il y a une route, mais prend <code>O(V²)</code> place.</li>
+<li><strong>Liste d'adjacence :</strong> Pour chaque sommet, on liste ses voisins. Plus compact pour les graphes peu denses (<code>O(V+E)</code> place).</li>
+</ul>
+<h3 id="a-nameex-graph-parcoursaparcours-de-graphes"><a name="ex-graph-parcours" href=""></a>Parcours de Graphes </h3>
+<ul>
+<li><strong>BFS (en largeur) :</strong> Explore par niveaux. Utilise une file (queue). Trouve le plus court chemin en nombre d'arêtes.</li>
+<li><strong>DFS (en profondeur) :</strong> Explore une branche à fond. Utilise une pile (stack) ou la récursivité.</li>
+</ul>
+<h3 id="a-nameex-graph-algoaalgorithmes-sur-les-graphes"><a name="ex-graph-algo" href=""></a>Algorithmes sur les Graphes </h3>
+<ul>
+<li><strong>Dijkstra :</strong> Trouve le plus court chemin pondéré d'un point à tous les autres. Ne fonctionne pas avec des poids négatifs.</li>
+<li><strong>Kruskal/Prim :</strong> Trouvent un Arbre Couvrant de Poids Minimum (MST). Kruskal trie toutes les arêtes par poids et les ajoute si elles ne forment pas de cycle.</li>
+</ul>
+<h3 id="a-nameex-crypto-symacryptographie-symétrique-vs-asymétrique"><a name="ex-crypto-sym" href=""></a>Cryptographie Symétrique vs Asymétrique </h3>
+<ul>
+<li><strong>Symétrique :</strong> Une clé de maison. La même clé ouvre et ferme la porte. Rapide. Ex : AES.</li>
+<li><strong>Asymétrique :</strong> Un cadenas et sa clé. La clé publique (cadenas ouvert) chiffre, la clé privée (clé du cadenas) déchiffre. Lent. Ex : RSA.</li>
+</ul>
+<h3 id="a-nameex-cesarachiffrement-de-césar"><a name="ex-cesar" href=""></a>Chiffrement de César </h3>
+<ul>
+<li><strong>Exemple (décalage de +3) :</strong> A -&gt; D, B -&gt; E, ..., Z -&gt; C.
+<ul>
+<li>"CESI" devient "FHVL".</li>
+</ul>
+</li>
+</ul>
+<h3 id="a-nameex-rsaaalgorithme-rsa"><a name="ex-rsa" href=""></a>Algorithme RSA </h3>
+<ul>
+<li><strong>Exemple :</strong> p=3, q=11.
+<ul>
+<li>n = 3 * 11 = 33.</li>
+<li>φ(n) = (3-1)(11-1) = 2 * 10 = 20.</li>
+<li>Choisir e=3 (premier avec 20).</li>
+<li>Trouver <code>d</code> tel que <code>3d ≡ 1 mod 20</code>. <code>3 * 7 = 21</code>, donc <code>d=7</code>.</li>
+<li>Clé publique: (n=33, e=3). Clé privée: (n=33, d=7).</li>
+</ul>
+</li>
+</ul>
+<h3 id="a-nameex-signatureasignature-numérique"><a name="ex-signature" href=""></a>Signature Numérique </h3>
+<p>Pour prouver que vous êtes l'auteur d'une lettre, vous signez le <em>hash</em> de la lettre avec votre clé <strong>privée</strong>. N'importe qui peut vérifier cette signature en utilisant votre clé <strong>publique</strong>.</p>
+<h3 id="a-nameex-hachageahachage-et-salage"><a name="ex-hachage" href=""></a>Hachage et Salage </h3>
+<p>Le hachage transforme "motdepasse123" en "e6a1...". On ne peut pas revenir en arrière. Le <strong>salage</strong> ajoute des caractères aléatoires avant le hachage ("motdepasse123-A#f8") pour que le hachage soit unique même pour des mots de passe identiques.</p>
+<h3 id="a-nameex-crypto-theoathéorèmes-clés"><a name="ex-crypto-theo" href=""></a>Théorèmes Clés </h3>
+<ul>
+<li><strong>Algorithme d'Euclide (PGCD) :</strong> <code>pgcd(198, 126)</code> -&gt; <code>198 = 1*126 + 72</code> -&gt; <code>126 = 1*72 + 54</code> -&gt; <code>72 = 1*54 + 18</code> -&gt; <code>54 = 3*18 + 0</code>. Le PGCD est 18.</li>
+<li><strong>Petit Théorème de Fermat :</strong> <code>3^10 mod 11</code>. 11 est premier. Donc <code>3^(11-1) ≡ 1 mod 11</code>.</li>
+</ul>
+<h3 id="a-nameex-greenitagreen-it"><a name="ex-greenit" href=""></a>Green IT </h3>
+<ul>
+<li><strong>PUE :</strong> Un PUE de 1.5 signifie que pour chaque 1kW consommé par les serveurs, 0.5kW est utilisé pour le reste (clim, etc.). <code>Énergie IT = Énergie totale / PUE</code>.</li>
+<li><strong>Consommation :</strong> Un PC de 100W allumé 10h consomme <code>(100 * 10) / 1000 = 1 kWh</code>.</li>
+</ul>
+<h3 id="a-nameex-pandasapython-pour-la-data"><a name="ex-pandas" href=""></a>Python pour la Data </h3>
+<ul>
+<li><strong>Pandas :</strong> <code>df.groupby('ville')['temp'].mean()</code> calcule la température moyenne par ville.</li>
+<li><strong>NumPy :</strong> <code>a.dot(b)</code> pour <code>a=[1,2]</code> et <code>b=[3,4]</code> fait <code>(1*3) + (2*4) = 11</code>.</li>
+</ul>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
